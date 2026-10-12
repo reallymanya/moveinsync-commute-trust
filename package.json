@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "npm run build:dashboard",
     "fetch:reviews": "node scripts/fetch_playstore_reviews.mjs",
     "build:gold-sample": "node scripts/build_gold_sample.mjs",
     "classify:reviews": "node scripts/classify_reviews.mjs",

@@ -1,2 +1,4 @@
 node_modules/
+dist/
+submission/bento-dashboard/dist/
 .DS_Store

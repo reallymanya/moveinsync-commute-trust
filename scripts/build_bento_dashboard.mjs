@@ -41,8 +41,15 @@ const html = template
   .replace("__REVIEWS__", safeJson(minimalReviews))
   .replace("__MANUAL__", safeJson(minimalManual));
 
-const outputDir = resolve(root, "submission/bento-dashboard/dist");
-mkdirSync(outputDir, { recursive: true });
-const output = resolve(outputDir, "index.html");
-writeFileSync(output, html);
-console.log(JSON.stringify({ output, reviews: minimalReviews.length, manualReviews: minimalManual.length, bytes: Buffer.byteLength(html) }, null, 2));
+const outputs = [
+  resolve(root, "submission/bento-dashboard/dist/index.html"),
+  resolve(root, "submission/final/MoveInSync_FDE_Interactive_Dashboard.html"),
+  resolve(root, "dist/index.html"),
+];
+
+for (const output of outputs) {
+  mkdirSync(resolve(output, ".."), { recursive: true });
+  writeFileSync(output, html);
+}
+
+console.log(JSON.stringify({ outputs, reviews: minimalReviews.length, manualReviews: minimalManual.length, bytes: Buffer.byteLength(html) }, null, 2));
