@@ -181,8 +181,11 @@
     const groupLabels={access_reliability:'Access & reliability',trip_truth:'Trip truth',recovery_support:'Recovery & support',task_completion_ux:'Task completion UX'};
     const colors=['#52e0a0','#f0aa4f','#7da5ff','#a2afa8']; let themeChart,trendChart,currentSummary='',selectedWeek=null;
     const $=id=>document.getElementById(id); const ratingFilter=$('ratingFilter'),dateFilter=$('dateFilter'),versionFilter=$('versionFilter');
-    [...new Set(allReviews.map(r=>r.v).filter(Boolean))].sort((a,b)=>b.localeCompare(a,undefined,{numeric:true})).forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent='Version '+v;versionFilter.append(o)});
-    function match(r){const rating=ratingFilter.value,date=dateFilter.value,version=versionFilter.value;const ratingOk=rating==='all'||(rating==='low'?r.r<=2:r.r===+rating);const versionOk=version==='all'||r.v===version;const cutoff=date==='all'?null:new Date(latestDate.getTime()-(+date)*86400000);return ratingOk&&versionOk&&(!cutoff||new Date(r.d)>=cutoff)}
+    function ratingMatches(r){const rating=ratingFilter.value;return rating==='all'||(rating==='low'?r.r<=2:r.r===+rating)}
+    function dateMatches(r){const date=dateFilter.value,cutoff=date==='all'?null:new Date(latestDate.getTime()-(+date)*86400000);return !cutoff||new Date(r.d)>=cutoff}
+    function match(r){const version=versionFilter.value;return ratingMatches(r)&&dateMatches(r)&&(version==='all'||r.v===version)}
+    function syncVersionOptions(){const selected=versionFilter.value||'all',counts={};allReviews.filter(r=>r.c.includes('newest')&&r.v&&ratingMatches(r)&&dateMatches(r)).forEach(r=>counts[r.v]=(counts[r.v]||0)+1);const versions=Object.keys(counts).sort((a,b)=>b.localeCompare(a,undefined,{numeric:true}));versionFilter.innerHTML='<option value="all">All versions</option>'+versions.map(v=>`<option value="${v}">Version ${v} (${counts[v]})</option>`).join('');versionFilter.value=counts[selected]?selected:'all'}
+    syncVersionOptions();
     function filteredRaw(){return allReviews.filter(r=>r.c.includes('newest')&&match(r))} function filteredManual(){return manualReviews.filter(match)}
     function average(rows){return rows.length?rows.reduce((s,r)=>s+r.r,0)/rows.length:0} const percent=(n,d)=>d?100*n/d:0;
     function weekKey(date){const d=new Date(date),day=(d.getUTCDay()+6)%7;d.setUTCDate(d.getUTCDate()-day);return d.toISOString().slice(0,10)}
@@ -209,7 +212,7 @@
     filtersToggle.addEventListener('click',()=>setFiltersOpen(!filterPanel.classList.contains('is-open')));
     document.addEventListener('click',event=>{if(!event.target.closest('.toolbar'))setFiltersOpen(false)});
     document.addEventListener('keydown',event=>{if(event.key==='Escape'){setFiltersOpen(false);filtersToggle.focus()}});
-    [ratingFilter,dateFilter,versionFilter].forEach(x=>x.addEventListener('change',()=>{update();if(innerWidth<1100)setFiltersOpen(false)}));$('resetFilters').addEventListener('click',()=>{ratingFilter.value='all';dateFilter.value='90';versionFilter.value='all';selectedWeek=null;clearTrendSelection();update()});
+    [ratingFilter,dateFilter].forEach(x=>x.addEventListener('change',()=>{syncVersionOptions();selectedWeek=null;clearTrendSelection();update();if(innerWidth<1100)setFiltersOpen(false)}));versionFilter.addEventListener('change',()=>{selectedWeek=null;clearTrendSelection();update();if(innerWidth<1100)setFiltersOpen(false)});$('resetFilters').addEventListener('click',()=>{ratingFilter.value='all';dateFilter.value='90';versionFilter.value='all';syncVersionOptions();selectedWeek=null;clearTrendSelection();update()});
     $('clearTrendSelection').addEventListener('click',()=>{clearTrendSelection();if(trendChart){trendChart.data.datasets[0].pointRadius=3;trendChart.data.datasets[1].pointRadius=2;trendChart.update('none')}});
     function selectVersionRow(row){versionFilter.value=row.dataset.version;selectedWeek=null;clearTrendSelection();update()}
     $('versionRows').addEventListener('click',event=>{const row=event.target.closest('tr[data-version]');if(row)selectVersionRow(row)});
