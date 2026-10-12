@@ -1,0 +1,18 @@
+{
+  "total": 910,
+  "theme_counts": {
+    "boarding_otp_checkin": 17,
+    "positive": 207,
+    "unclear": 344,
+    "stability_performance": 45,
+    "tracking_eta": 82,
+    "feedback_rating": 7,
+    "ui_navigation": 25,
+    "booking_cancellation": 78,
+    "support_operations": 25,
+    "routing_trip_quality": 25,
+    "login_authentication": 31,
+    "notifications": 23,
+    "metro_ticketing": 1
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "evaluated": 30,
+  "correct": 25,
+  "exact_match_accuracy": 0.833,
+  "per_theme_recall": {
+    "stability_performance": {
+      "total": 5,
+      "correct": 5,
+      "recall": 1
+    },
+    "routing_trip_quality": {
+      "total": 1,
+      "correct": 0,
+      "recall": 0
+    },
+    "unclear": {
+      "total": 2,
+      "correct": 2,
+      "recall": 1
+    },
+    "ui_navigation": {
+      "total": 3,
+      "correct": 0,
+      "recall": 0
+    },
+    "feedback_rating": {
+      "total": 2,
+      "correct": 2,
+      "recall": 1
+    },
+    "booking_cancellation": {
+      "total": 4,
+      "correct": 4,
+      "recall": 1
+    },
+    "login_authentication": {
+      "total": 5,
+      "correct": 4,
+      "recall": 0.8
+    },
+    "support_operations": {
+      "total": 2,
+      "correct": 2,
+      "recall": 1
+    },
+    "tracking_eta": {
+      "total": 1,
+      "correct": 1,
+      "recall": 1
+    },
+    "positive": {
+      "total": 5,
+      "correct": 5,
+      "recall": 1
+    }
+  },
+  "mismatches": [
+    {
+      "review_id": "1239e342-ffd6-4a27-b815-54f7f3711b06",
+      "text": "When trying to reach helpdesk, the line disconnects. Cab ETA keeps changing and the worst part is routing & pickup timings, spending over 2 hours to reach office with in Gurugram",
+      "expected": "routing_trip_quality",
+      "predicted": "tracking_eta",
+      "confidence": 0.95,
+      "evidence": "ETA; implausible ETA"
+    },
+    {
+      "review_id": "1335949c-f6e0-4123-bbbc-0fd705a984fb",
+      "text": "Looks like the mobile app is in the beta stage. Here is my advice to make it more professional: 1. No way to go back after clicking on user name text box in login screen. 2. No option to edit profile and address data after login. 3. Login and log out button should not be there in the schedule screen. Which is currently not functional. But overall concept would be good for us if you can cover most of the areas in Bengaluru where there is no public transport connectivity. Keep up the good work.",
+      "expected": "ui_navigation",
+      "predicted": "login_authentication",
+      "confidence": 0.7,
+      "evidence": "unexpected logout"
+    },
+    {
+      "review_id": "1899221d-fc08-46db-a939-fbcfad328376",
+      "text": "App is having good interface and had lots of improvements in past months. But a sad part is there is no option to communicate with driver from employee side. We need either call or chat option for the assigned cab. So that we can guide him address. If drivern taken wrong route we can check him using the track and call option This connection option will really help drivers and employees who are going to on board the cab. Please check on this",
+      "expected": "ui_navigation",
+      "predicted": "routing_trip_quality",
+      "confidence": 0.95,
+      "evidence": "poor route; routing"
+    },
+    {
+      "review_id": "19c6de5d-efbf-4f17-b143-fd1f3c48ac48",
+      "text": "I couldn't able to access not even getting otp",
+      "expected": "login_authentication",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "1e2a1226-89f8-4ee7-ad3c-f9a63a6689b9",
+      "text": "Using this out of compulsion. 0 innovation, hard to track cabs, does its own maps thing, doesn't have clever messaging options to contact drivers and the transport desk. You will still depend on emails, phone calls and SMS to work this thing. If the 1970's stick and carrot were a thing, this app would be the face of it.",
+      "expected": "ui_navigation",
+      "predicted": "support_operations",
+      "confidence": 0.76,
+      "evidence": "support or driver"
+    }
+  ]
+}

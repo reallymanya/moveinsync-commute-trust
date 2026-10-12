@@ -1,0 +1,84 @@
+{
+  "title": "Fix commute trust before polishing the MoveInSync app",
+  "generatedAt": "2026-10-12T13:24:41.996Z",
+  "status": "reviewed",
+  "report": { "asOf": "2026-10-09" },
+  "filters": [],
+  "queries": {
+    "recent_rating": {
+      "rows": [
+        {"week":"2026-07-27","reviews":44,"averageRating":4.09,"lowStarShare":0.227},
+        {"week":"2026-08-03","reviews":59,"averageRating":3.31,"lowStarShare":0.373},
+        {"week":"2026-08-10","reviews":56,"averageRating":3.45,"lowStarShare":0.375},
+        {"week":"2026-08-17","reviews":59,"averageRating":3.95,"lowStarShare":0.254},
+        {"week":"2026-08-24","reviews":51,"averageRating":4.02,"lowStarShare":0.235},
+        {"week":"2026-08-31","reviews":51,"averageRating":3.82,"lowStarShare":0.275},
+        {"week":"2026-09-07","reviews":51,"averageRating":4.04,"lowStarShare":0.216},
+        {"week":"2026-09-14","reviews":69,"averageRating":3.90,"lowStarShare":0.275},
+        {"week":"2026-09-21","reviews":56,"averageRating":3.54,"lowStarShare":0.357},
+        {"week":"2026-09-28","reviews":44,"averageRating":3.64,"lowStarShare":0.318},
+        {"week":"2026-10-05","reviews":60,"averageRating":3.80,"lowStarShare":0.300}
+      ],
+      "reportingField": "week",
+      "source": {
+        "label": "Google Play — 600 newest English-language India reviews fetched 12 Oct 2026",
+        "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets",
+        "filters": ["App id: com.moveinsync.ets", "Country: India", "Language: English", "Review dates: 28 Jul–9 Oct 2026"],
+        "metricDefinitions": [
+          {"label":"Average rating","definition":"Arithmetic mean of star ratings in reviews returned by the newest-sort collection.","componentIds":["metric-recent-rating","rating-trend","executive-summary"]},
+          {"label":"Low-star share","definition":"Share of collected reviews rated one or two stars.","componentIds":["metric-low-star","rating-trend","executive-summary"]}
+        ]
+      }
+    },
+    "problem_groups": {
+      "rows": [
+        {"group":"Access & reliability","complaints":25,"share":0.397,"scope":"Recent 90-day manually coded complaints"},
+        {"group":"Trip truth","complaints":18,"share":0.286,"scope":"Recent 90-day manually coded complaints"},
+        {"group":"Recovery & support","complaints":11,"share":0.175,"scope":"Recent 90-day manually coded complaints"},
+        {"group":"Task completion UX","complaints":9,"share":0.143,"scope":"Recent 90-day manually coded complaints"}
+      ],
+      "source": {
+        "label": "Manual coding — 63 specific complaints in the recent 90-day window",
+        "filters": ["Window: 11 Jul–9 Oct 2026", "Complaint-heavy manually reviewed sample", "One primary theme per review"],
+        "metricDefinitions": [
+          {"label":"Complaint share","definition":"Theme-group count divided by the 63 manually coded specific complaints in the recent window. Directional, not a prevalence estimate for all reviews.","componentIds":["problem-share","problem-ranking","executive-summary"]}
+        ]
+      }
+    },
+    "version_health": {
+      "rows": [
+        {"version":"12.16.0","reviews":67,"averageRating":3.85,"lowStarShare":0.269},
+        {"version":"12.16.1","reviews":38,"averageRating":3.53,"lowStarShare":0.342},
+        {"version":"12.17.0","reviews":141,"averageRating":3.76,"lowStarShare":0.298},
+        {"version":"12.18.0","reviews":65,"averageRating":4.11,"lowStarShare":0.200},
+        {"version":"12.18.1","reviews":94,"averageRating":3.90,"lowStarShare":0.266},
+        {"version":"12.19.0","reviews":102,"averageRating":3.58,"lowStarShare":0.353}
+      ],
+      "source": {
+        "label": "Google Play newest-review sample grouped by reported app version",
+        "filters": ["Only versions with at least 30 reviews shown", "App version missing for 9.2% of the full deduplicated dataset"],
+        "metricDefinitions": [
+          {"label":"Version average rating","definition":"Descriptive mean among sampled reviews that reported an app version; it does not establish that the release caused the rating.","componentIds":["version-table","version-note"]}
+        ]
+      }
+    },
+    "evidence_scope": {
+      "rows": [
+        {"metric":"Unique reviews collected","value":"910"},
+        {"metric":"Newest reviews used for trend","value":"600"},
+        {"metric":"Reviews manually coded","value":"160"},
+        {"metric":"Specific complaints manually coded","value":"118"},
+        {"metric":"Recent-window specific complaints","value":"63"},
+        {"metric":"Developer reply share","value":"11.5%"},
+        {"metric":"Frozen classifier exact-match accuracy","value":"43.3% — rejected for decision use"}
+      ],
+      "source": {
+        "label": "Reproducible local collection and validation pipeline",
+        "filters": ["Newest + helpful samples deduplicated by review id", "Public reviewer names and profile images excluded from saved datasets"],
+        "metricDefinitions": [
+          {"label":"Manual analysis","definition":"Human-assigned primary themes using the documented taxonomy; intentionally complaint-heavy for problem discovery.","componentIds":["methods"]}
+        ]
+      }
+    }
+  }
+}

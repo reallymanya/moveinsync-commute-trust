@@ -1,0 +1,90 @@
+{
+  "evaluated": 60,
+  "correct": 58,
+  "exact_match_accuracy": 0.967,
+  "per_theme_recall": {
+    "boarding_otp_checkin": {
+      "total": 3,
+      "correct": 3,
+      "recall": 1
+    },
+    "unclear": {
+      "total": 4,
+      "correct": 4,
+      "recall": 1
+    },
+    "stability_performance": {
+      "total": 8,
+      "correct": 7,
+      "recall": 0.875
+    },
+    "routing_trip_quality": {
+      "total": 2,
+      "correct": 2,
+      "recall": 1
+    },
+    "feedback_rating": {
+      "total": 3,
+      "correct": 3,
+      "recall": 1
+    },
+    "tracking_eta": {
+      "total": 8,
+      "correct": 7,
+      "recall": 0.875
+    },
+    "ui_navigation": {
+      "total": 7,
+      "correct": 7,
+      "recall": 1
+    },
+    "booking_cancellation": {
+      "total": 3,
+      "correct": 3,
+      "recall": 1
+    },
+    "support_operations": {
+      "total": 4,
+      "correct": 4,
+      "recall": 1
+    },
+    "login_authentication": {
+      "total": 4,
+      "correct": 4,
+      "recall": 1
+    },
+    "notifications": {
+      "total": 2,
+      "correct": 2,
+      "recall": 1
+    },
+    "positive": {
+      "total": 11,
+      "correct": 11,
+      "recall": 1
+    },
+    "metro_ticketing": {
+      "total": 1,
+      "correct": 1,
+      "recall": 1
+    }
+  },
+  "mismatches": [
+    {
+      "review_id": "823b9c8b-afde-47e7-abad-fb60f14ea562",
+      "text": "app stuck all the time unable to schedule pathetic",
+      "expected": "stability_performance",
+      "predicted": "booking_cancellation",
+      "confidence": 0.85,
+      "evidence": "booking blocked; booking"
+    },
+    {
+      "review_id": "ba577d27-3740-4e59-95e9-1d2123b84cf0",
+      "text": "I had a very disappointing experience with Move In Sync. The cab was shown at a different location due to a glitch in the app, but the driver reached the correct location and left without picking me up. When I contacted the helpdesk for assistance, their response was unhelpful, and they did not communicate with me politely. The lack of cooperation and poor customer service was very frustrating.",
+      "expected": "tracking_eta",
+      "predicted": "support_operations",
+      "confidence": 0.93,
+      "evidence": "support or driver conduct; support or driver"
+    }
+  ]
+}

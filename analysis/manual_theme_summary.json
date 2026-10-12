@@ -1,0 +1,64 @@
+{
+  "manually_reviewed": 160,
+  "positive": 31,
+  "unclear": 11,
+  "specific_complaints": 118,
+  "complaint_theme_counts": {
+    "stability_performance": 26,
+    "tracking_eta": 20,
+    "ui_navigation": 14,
+    "login_authentication": 14,
+    "support_operations": 12,
+    "booking_cancellation": 11,
+    "feedback_rating": 7,
+    "routing_trip_quality": 5,
+    "boarding_otp_checkin": 4,
+    "notifications": 4,
+    "metro_ticketing": 1
+  },
+  "complaint_theme_shares": {
+    "stability_performance": 0.22,
+    "tracking_eta": 0.169,
+    "ui_navigation": 0.119,
+    "login_authentication": 0.119,
+    "support_operations": 0.102,
+    "booking_cancellation": 0.093,
+    "feedback_rating": 0.059,
+    "routing_trip_quality": 0.042,
+    "boarding_otp_checkin": 0.034,
+    "notifications": 0.034,
+    "metro_ticketing": 0.008
+  },
+  "recent_window": {
+    "start": "2026-07-11T12:41:59.695Z",
+    "end": "2026-10-09T12:41:59.695Z",
+    "specific_complaints": 63,
+    "complaint_theme_counts": {
+      "stability_performance": 17,
+      "support_operations": 9,
+      "login_authentication": 8,
+      "tracking_eta": 7,
+      "routing_trip_quality": 4,
+      "ui_navigation": 4,
+      "booking_cancellation": 4,
+      "notifications": 4,
+      "boarding_otp_checkin": 3,
+      "feedback_rating": 2,
+      "metro_ticketing": 1
+    }
+  },
+  "rating_counts": {
+    "1": 99,
+    "2": 13,
+    "3": 18,
+    "4": 2,
+    "5": 28
+  },
+  "label_set_counts": {
+    "development": 60,
+    "audit_1": 40,
+    "audit_2": 30,
+    "frozen_audit": 30
+  },
+  "interpretation": "This is an intentionally complaint-heavy, manually coded sample for theme discovery. Its theme shares are directional and must not be treated as population estimates for all Play Store reviews."
+}

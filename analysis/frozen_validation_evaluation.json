@@ -1,0 +1,190 @@
+{
+  "evaluated": 30,
+  "correct": 13,
+  "exact_match_accuracy": 0.433,
+  "per_theme_recall": {
+    "stability_performance": {
+      "total": 8,
+      "correct": 2,
+      "recall": 0.25
+    },
+    "ui_navigation": {
+      "total": 1,
+      "correct": 0,
+      "recall": 0
+    },
+    "support_operations": {
+      "total": 3,
+      "correct": 0,
+      "recall": 0
+    },
+    "tracking_eta": {
+      "total": 6,
+      "correct": 4,
+      "recall": 0.667
+    },
+    "unclear": {
+      "total": 2,
+      "correct": 2,
+      "recall": 1
+    },
+    "login_authentication": {
+      "total": 2,
+      "correct": 2,
+      "recall": 1
+    },
+    "notifications": {
+      "total": 1,
+      "correct": 0,
+      "recall": 0
+    },
+    "feedback_rating": {
+      "total": 2,
+      "correct": 0,
+      "recall": 0
+    },
+    "positive": {
+      "total": 5,
+      "correct": 3,
+      "recall": 0.6
+    }
+  },
+  "mismatches": [
+    {
+      "review_id": "1ec8231a-d838-42cc-b800-c68481a1a6c0",
+      "text": "The app isn't working since past 2 days. I am unable to book the cab. The screen is just loading. Please fix the issue asap. I logged out and logged in multiple times. And also installed and uninstalled the app. Unable to book the cab. I have to book the cab in next 4 hrs. Please fix it asap. It's been a week, I haven't received any reply. My app is still not working. I need it to he fixed asap.",
+      "expected": "stability_performance",
+      "predicted": "booking_cancellation",
+      "confidence": 0.9,
+      "evidence": "booking blocked; booking"
+    },
+    {
+      "review_id": "1f01f748-b40a-488d-914b-b3bcc99a2a6a",
+      "text": "Hi Team, The MoveInSync app is forcing users to grant microphone access, even though it does not provide any direct in-app calling feature and all calls are routed through the regular phone dialer. Could you please clarify why microphone permission is mandatory? If it is not essential for the core functionality of the app, please stop forcing users to grant this permission and allow the app to function without it. Greater transparency around permission requirements would be appreciated.",
+      "expected": "ui_navigation",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "201ff8b8-9e97-48fa-9998-e109590ea757",
+      "text": "Just opening this app takes forever because they want to show 1. A full screen opening animation 2. Popup window with festive greetings and 3. A UI that need full network connectivity just to load. Even a simple web page would perform better than this app. It is the slowest Android app I have used yet it would be needed for time critical moments when you need to check the OTP or track cab position etc. Hope the companies who hire MoveInSync are reading this!",
+      "expected": "stability_performance",
+      "predicted": "boarding_otp_checkin",
+      "confidence": 0.82,
+      "evidence": "trip OTP"
+    },
+    {
+      "review_id": "2109668e-b908-4604-a7c0-dc526e27ea9e",
+      "text": "one of the worst services drivers don't know how to behave with employees and movein sync won't train them as well very worst service travel world is best",
+      "expected": "support_operations",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "2211ba73-2abc-4b42-8664-6f77105ff11b",
+      "text": "The Cab Tracker is useless, and it doesn't even update on time.",
+      "expected": "tracking_eta",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "22354715-c543-410a-b101-5d96b0e80424",
+      "text": "I am sorry, I saw what I wrote. It was not correct. I wanted to write, it stucks on every page while booking the cab sometimes. And sometimes it doesn't even open. Also I keep getting notifications that the version is not updated which is not correct, I have recently updated mine.",
+      "expected": "stability_performance",
+      "predicted": "notifications",
+      "confidence": 0.81,
+      "evidence": "notification"
+    },
+    {
+      "review_id": "25656a47-c872-4e03-baa7-861134241f1f",
+      "text": "location and its root is accurate many times, hangs for unknown reasons, no feedback option to feedback about the app, it has a lot of sleeping defects, if it's not improved the app will reach the end of life soon.",
+      "expected": "tracking_eta",
+      "predicted": "stability_performance",
+      "confidence": 0.83,
+      "evidence": "hang or freeze"
+    },
+    {
+      "review_id": "2767a152-7aaa-4a0e-904c-1d620a20052f",
+      "text": "worst app. no feedback link. message comes wrongly before the vehicle arrives or reaches destination",
+      "expected": "notifications",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "28af5dc5-9cf3-4464-9004-dd45694cdd22",
+      "text": "having frequent trouble in opening the app. throwing error that the app was not installed thru playstore. frustrating",
+      "expected": "stability_performance",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "2964c65f-3c5f-4e55-9816-0db634fae32d",
+      "text": "super bad service with bad transport management. Company should release these transport vendors.",
+      "expected": "support_operations",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "298a10c3-0de6-4f5e-af9e-bab6225efe9c",
+      "text": "Still cannot use the app on Wifi. Have to use mobile data to use this app. I don't know when this issue is going to get fixed. Its been there since more than half a year. Have wrote a mail to the email id as well to the app dev but still no solution provided.",
+      "expected": "stability_performance",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "2b5b4c19-7f15-4e3a-907a-8ed47e7daf82",
+      "text": "The service is absolutely terrible, extremelypoor... They only care about the money.",
+      "expected": "support_operations",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "482f69ad-bc73-4d9f-84df-84367b9cea72",
+      "text": "there is no meaning of rating feature. driver themself gives rating. and then it get locks. actual user passenger is unable to edit or give rating using this app",
+      "expected": "feedback_rating",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "4b1646d6-ab4e-43e5-9695-a0c1a6afe507",
+      "text": "after 2-3 days it says cannot open as not installed from play store. I need to install again due to this.",
+      "expected": "stability_performance",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "5c18cff6-06a8-4ea5-a32f-10f4b5513c13",
+      "text": "Removed the option to rate rides. The app is good for booking and getting cab details. Earlier, until a few months ago, you could rate a ride, or provide feedback on it, but not anymore. Now, the driver may come half an hour late, not come at all, but there is nothing you can do to report it. This sucks.",
+      "expected": "feedback_rating",
+      "predicted": "tracking_eta",
+      "confidence": 0.75,
+      "evidence": "implausible ETA"
+    },
+    {
+      "review_id": "0b795dc6-6cfe-41ab-84ef-318b1c6bf8cd",
+      "text": "It's a good app for transportation but it should be better if there is an option for a chat or call driver for the same. As sometimes due to network issues we are not able to receive the calls from the driver so in that case that would be useful if we have an option for chatting with the driver or else we can call them once we are in the network zone.",
+      "expected": "positive",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "0ef84db1-2833-4bad-9c27-df00efcda17d",
+      "text": "easy and simple ro use quite quick to navigate",
+      "expected": "positive",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    }
+  ]
+}

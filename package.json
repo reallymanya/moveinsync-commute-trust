@@ -1,0 +1,23 @@
+{
+  "name": "moveinsync-playstore-analysis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch:reviews": "node scripts/fetch_playstore_reviews.mjs",
+    "build:gold-sample": "node scripts/build_gold_sample.mjs",
+    "classify:reviews": "node scripts/classify_reviews.mjs",
+    "evaluate:classifier": "node scripts/evaluate_classifier.mjs",
+    "evaluate:holdout": "node scripts/evaluate_classifier.mjs analysis/holdout_labels.json analysis/holdout_evaluation.json",
+    "evaluate:final": "node scripts/evaluate_classifier.mjs analysis/final_validation_labels.json analysis/final_validation_evaluation.json",
+    "evaluate:frozen": "node scripts/evaluate_classifier.mjs analysis/frozen_validation_labels.json analysis/frozen_validation_evaluation.json",
+    "build:manual-analysis": "node scripts/build_manual_analysis.mjs",
+    "analyze:reviews": "node scripts/analyze_reviews.mjs",
+    "build:dashboard": "node scripts/build_bento_dashboard.mjs",
+    "build:pdf": "python3 scripts/build_submission_pdf.py"
+  },
+  "dependencies": {
+    "chart.js": "4.4.7",
+    "google-play-scraper": "10.1.3"
+  }
+}

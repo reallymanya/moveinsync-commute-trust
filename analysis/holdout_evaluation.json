@@ -1,0 +1,96 @@
+{
+  "evaluated": 40,
+  "correct": 36,
+  "exact_match_accuracy": 0.9,
+  "per_theme_recall": {
+    "unclear": {
+      "total": 3,
+      "correct": 3,
+      "recall": 1
+    },
+    "support_operations": {
+      "total": 3,
+      "correct": 1,
+      "recall": 0.333
+    },
+    "tracking_eta": {
+      "total": 5,
+      "correct": 4,
+      "recall": 0.8
+    },
+    "routing_trip_quality": {
+      "total": 2,
+      "correct": 2,
+      "recall": 1
+    },
+    "login_authentication": {
+      "total": 3,
+      "correct": 3,
+      "recall": 1
+    },
+    "booking_cancellation": {
+      "total": 4,
+      "correct": 4,
+      "recall": 1
+    },
+    "ui_navigation": {
+      "total": 3,
+      "correct": 3,
+      "recall": 1
+    },
+    "stability_performance": {
+      "total": 5,
+      "correct": 5,
+      "recall": 1
+    },
+    "notifications": {
+      "total": 1,
+      "correct": 1,
+      "recall": 1
+    },
+    "boarding_otp_checkin": {
+      "total": 1,
+      "correct": 0,
+      "recall": 0
+    },
+    "positive": {
+      "total": 10,
+      "correct": 10,
+      "recall": 1
+    }
+  },
+  "mismatches": [
+    {
+      "review_id": "05721a7c-55c6-4988-aad4-294192414118",
+      "text": "Taytay-Five Neo 615pm sched is always late! Always more than an hour late!",
+      "expected": "support_operations",
+      "predicted": "tracking_eta",
+      "confidence": 0.7,
+      "evidence": "implausible ETA"
+    },
+    {
+      "review_id": "0941f657-db8a-4543-8835-c9d45bbc63fe",
+      "text": "Worst management ever daily I get late 1 hour will you pay for my time? joking with us I am gonna rate you the negative with other account as well",
+      "expected": "support_operations",
+      "predicted": "tracking_eta",
+      "confidence": 0.7,
+      "evidence": "implausible ETA"
+    },
+    {
+      "review_id": "09c30038-3114-47aa-951e-731d66949273",
+      "text": "I updated this app with Latest version 5.4.1 released on 4th February 2019. After Updating it is not working as accurate it was working before. Last Updated option is not updating timely and aap is also not updating automatically, have to close and open again to get latest update. Also, Cab is just 4-5km away and it is showing time like 4.45hrs. Didn't get option to upload screenshot.",
+      "expected": "tracking_eta",
+      "predicted": "unclear",
+      "confidence": 0.35,
+      "evidence": "no specific theme matched"
+    },
+    {
+      "review_id": "0f947251-87c6-4244-92b9-0df3218ca71e",
+      "text": "once we book a bus it should not have to be cancelled or made changes by other than employee. but here booked bus are till about to travel but reflecting no show",
+      "expected": "boarding_otp_checkin",
+      "predicted": "booking_cancellation",
+      "confidence": 0.9,
+      "evidence": "booking failure or status; booking"
+    }
+  ]
+}
