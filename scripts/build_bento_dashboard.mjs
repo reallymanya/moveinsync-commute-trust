@@ -36,6 +36,22 @@ const ratingSnapshots = snapshotLines.slice(1).map((line) => Object.fromEntries(
 const currentSnapshot = ratingSnapshots.at(-1);
 const previousSnapshot = ratingSnapshots.at(-2);
 
+function nextMondayRefresh(value) {
+  const collectedAt = new Date(value);
+  const istOffsetMs = 330 * 60 * 1000;
+  const istDate = new Date(collectedAt.getTime() + istOffsetMs);
+  const daysUntilMonday = (8 - istDate.getUTCDay()) % 7;
+  let nextRefresh = new Date(Date.UTC(
+    istDate.getUTCFullYear(),
+    istDate.getUTCMonth(),
+    istDate.getUTCDate() + daysUntilMonday,
+    2,
+    17,
+  ));
+  if (nextRefresh <= collectedAt) nextRefresh = new Date(nextRefresh.getTime() + 7 * 86400000);
+  return nextRefresh.toISOString();
+}
+
 const minimalReviews = reviews.map((review) => ({
   id: review.review_id,
   d: review.date,
@@ -69,6 +85,16 @@ const refreshMeta = {
   manuallyReviewed: manuallyReviewed.length,
   listingScore: metadata.app.score,
   listingRatings: metadata.app.ratings,
+  writtenReviews: metadata.app.reviews,
+  listingScoreChange: previousSnapshot
+    ? Number(currentSnapshot.listing_score) - Number(previousSnapshot.listing_score)
+    : null,
+  listingRatingsChange: previousSnapshot
+    ? Number(currentSnapshot.rating_count) - Number(previousSnapshot.rating_count)
+    : null,
+  writtenReviewsChange: previousSnapshot
+    ? Number(currentSnapshot.written_review_count) - Number(previousSnapshot.written_review_count)
+    : null,
   currentSampleAverage: Number(currentSnapshot?.newest_sample_average),
   currentLowStarShare: Number(currentSnapshot?.newest_sample_low_star_share),
   previousCollectedAt: previousSnapshot?.collected_at || "",
@@ -79,6 +105,7 @@ const refreshMeta = {
     ? Number(currentSnapshot.newest_sample_low_star_share) - Number(previousSnapshot.newest_sample_low_star_share)
     : null,
   cadence: "Weekly · Mondays 07:47 IST",
+  nextScheduledAt: nextMondayRefresh(metadata.collected_at),
 };
 
 const safeJson = (value) => JSON.stringify(value).replaceAll("<", "\\u003c");
