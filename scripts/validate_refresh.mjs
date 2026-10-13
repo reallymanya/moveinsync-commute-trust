@@ -5,6 +5,10 @@ const metadata = JSON.parse(await fs.readFile('data/playstore_metadata.json', 'u
 const manual = JSON.parse(
   await fs.readFile('analysis/manually_reviewed_sample.json', 'utf8'),
 );
+const ratingSnapshots = (await fs.readFile('data/rating_snapshots.csv', 'utf8'))
+  .trim()
+  .split('\n')
+  .slice(1);
 
 const newest = reviews.filter((review) =>
   review.collection.split(',').includes('newest'),
@@ -17,6 +21,10 @@ if (duplicateCount) failures.push(`${duplicateCount} duplicate review IDs remain
 if (!metadata.collected_at) failures.push('Collection timestamp is missing.');
 if (!metadata.app?.score || !metadata.app?.ratings) failures.push('Play Store listing metadata is incomplete.');
 if (manual.length !== 160) failures.push(`Frozen manual snapshot changed size (${manual.length}, expected 160).`);
+if (!ratingSnapshots.length) failures.push('Rating snapshot history is empty.');
+if (!ratingSnapshots.at(-1)?.startsWith(metadata.collected_at)) {
+  failures.push('Latest rating snapshot does not match the current collection timestamp.');
+}
 
 if (failures.length) {
   console.error(`Refresh validation failed:\n- ${failures.join('\n- ')}`);
@@ -28,6 +36,7 @@ if (failures.length) {
     unique_reviews: reviews.length,
     newest_reviews: newest.length,
     frozen_manual_reviews: manual.length,
+    rating_snapshot_checks: ratingSnapshots.length,
     duplicate_review_ids: duplicateCount,
   }, null, 2));
 }

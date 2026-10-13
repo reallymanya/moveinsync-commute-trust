@@ -29,13 +29,14 @@ The repository now answers “How are our Play Store ratings?” as a repeatable
 
 1. A GitHub Actions job runs every Monday at **07:47 IST**, and can also be run manually.
 2. It fetches a fresh public India/English snapshot: 600 newest reviews plus 400 helpfulness-ranked reviews.
-3. It deduplicates, recalculates the newest-sample rating, low-star share, weekly movement and app-version cohorts.
+3. It appends the listing score and rating counts to `data/rating_snapshots.csv`, then recalculates the newest-sample rating, low-star share, weekly movement and app-version cohorts.
 4. A validation gate stops publication if the newest sample is unexpectedly small, IDs are duplicated, listing metadata is missing, or the frozen human-review snapshot changes.
 5. It rebuilds the self-contained dashboard, commits the changed evidence, and the connected Vercel project redeploys from that commit.
 
 Two evidence layers are deliberately separated:
 
 - **Automatically refreshed:** listing metadata, newest-review metrics, weekly trends and version comparisons.
+- **Preserved over time:** append-only listing score, rating count and written-review count snapshots for run-to-run comparison.
 - **Human-reviewed snapshot:** complaint themes from 160 manually coded reviews, visibly dated in the dashboard. These do not pretend to refresh automatically because the tested keyword classifier achieved only 43.3% frozen exact-match accuracy.
 
 The workflow is defined in [`.github/workflows/refresh-playstore.yml`](.github/workflows/refresh-playstore.yml). A failed collection or validation leaves the last verified dashboard live instead of publishing partial data.

@@ -39,6 +39,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
             data/playstore_metadata.json \
+            data/rating_snapshots.csv \
             data/playstore_reviews.csv \
             data/playstore_reviews.json \
             analysis/quantitative_summary.json \

@@ -9,6 +9,7 @@ Refresh timestamp: see `playstore_metadata.json` (updated by the recurring workf
 - `playstore_reviews.csv`: analysis-ready review table.
 - `playstore_reviews.json`: the same reviews as structured JSON.
 - `playstore_metadata.json`: listing metadata and collection details.
+- `rating_snapshots.csv`: append-only store-score and rating-count history, one row per successful collection.
 
 Each collection requests 600 reviews sorted by newest and 400 sorted by helpfulness. Counts after deduplication can change between runs. The authoritative timestamp and counts for the current snapshot are stored in `playstore_metadata.json`.
 

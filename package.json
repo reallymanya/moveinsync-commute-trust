@@ -14,8 +14,9 @@
     "evaluate:frozen": "node scripts/evaluate_classifier.mjs analysis/frozen_validation_labels.json analysis/frozen_validation_evaluation.json",
     "build:manual-analysis": "node scripts/build_manual_analysis.mjs",
     "analyze:reviews": "node scripts/analyze_reviews.mjs",
+    "record:rating-snapshot": "node scripts/record_rating_snapshot.mjs",
     "validate:refresh": "node scripts/validate_refresh.mjs",
-    "refresh:data": "npm run fetch:reviews && npm run analyze:reviews && npm run validate:refresh && npm run build:dashboard",
+    "refresh:data": "npm run fetch:reviews && npm run record:rating-snapshot && npm run analyze:reviews && npm run validate:refresh && npm run build:dashboard",
     "build:dashboard": "node scripts/build_bento_dashboard.mjs",
     "build:pdf": "python3 scripts/build_submission_pdf.py"
   },

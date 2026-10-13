@@ -19,6 +19,6 @@ For a recurring internal workflow, classify new reviews with a language model us
 
 ## Recurring public monitor implemented here
 
-The GitHub Actions workflow refreshes the public rating layer every Monday at 07:47 IST. It refetches the newest and helpfulness-ranked samples, recalculates rating, weekly and version summaries, validates the output, rebuilds the dashboard and commits the new evidence. Vercel then rebuilds the live site from the repository.
+The GitHub Actions workflow refreshes the public rating layer every Monday at 07:47 IST. It appends the store score and counts to `data/rating_snapshots.csv`, refetches the newest and helpfulness-ranked samples, recalculates rating, weekly and version summaries, validates the output, rebuilds the dashboard and commits the new evidence. Vercel then rebuilds the live site from the repository.
 
 The 160 human-coded records are frozen in `analysis/manually_reviewed_sample.json`. Dashboard date filters are anchored independently for the current rating sample and the dated manual snapshot. This prevents a routine data refresh from either dropping labelled reviews or presenting old theme coding as newly reviewed evidence.
