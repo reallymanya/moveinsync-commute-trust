@@ -42,6 +42,8 @@ npm run build:dashboard
 
 The fetch command reads current public Play Store reviews, so a later run will naturally produce different results. The committed files preserve the exact evidence used in this submission.
 
+The repository also includes a weekly GitHub Actions monitor. It refreshes quantitative rating, weekly and version evidence, validates the result and rebuilds the deployed dashboard. Complaint themes remain a visibly dated human-reviewed snapshot until a new manual review is completed.
+
 ## Tools used
 
 - Node.js and JavaScript for collection, cleaning, deduplication and summaries.

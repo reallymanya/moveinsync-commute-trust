@@ -1,5 +1,7 @@
 # MoveInSync Commute Trust
 
+[![Refresh Play Store evidence](https://github.com/reallymanya/moveinsync-commute-trust/actions/workflows/refresh-playstore.yml/badge.svg)](https://github.com/reallymanya/moveinsync-commute-trust/actions/workflows/refresh-playstore.yml)
+
 An evidence-backed product and engineering response to MoveInSync's Forward Deployed Engineer candidate assignment: understand why the employee app receives low Play Store ratings and recommend what the team should build first.
 
 The central conclusion is simple:
@@ -19,6 +21,25 @@ The central conclusion is simple:
 
 The interactive dashboard is a single self-contained HTML file. Download it and open it in any modern browser; it does not need a server or internet connection at runtime.
 
+Live dashboard: [moveinsync-commute-trust.vercel.app](https://moveinsync-commute-trust.vercel.app)
+
+## A recurring answer, not a one-time report
+
+The repository now answers “How are our Play Store ratings?” as a repeatable monitoring workflow:
+
+1. A GitHub Actions job runs every Monday at **07:47 IST**, and can also be run manually.
+2. It fetches a fresh public India/English snapshot: 600 newest reviews plus 400 helpfulness-ranked reviews.
+3. It deduplicates, recalculates the newest-sample rating, low-star share, weekly movement and app-version cohorts.
+4. A validation gate stops publication if the newest sample is unexpectedly small, IDs are duplicated, listing metadata is missing, or the frozen human-review snapshot changes.
+5. It rebuilds the self-contained dashboard, commits the changed evidence, and the connected Vercel project redeploys from that commit.
+
+Two evidence layers are deliberately separated:
+
+- **Automatically refreshed:** listing metadata, newest-review metrics, weekly trends and version comparisons.
+- **Human-reviewed snapshot:** complaint themes from 160 manually coded reviews, visibly dated in the dashboard. These do not pretend to refresh automatically because the tested keyword classifier achieved only 43.3% frozen exact-match accuracy.
+
+The workflow is defined in [`.github/workflows/refresh-playstore.yml`](.github/workflows/refresh-playstore.yml). A failed collection or validation leaves the last verified dashboard live instead of publishing partial data.
+
 ## A five-minute recruiter walkthrough
 
 1. Open the interactive dashboard.
@@ -30,9 +51,9 @@ The interactive dashboard is a single self-contained HTML file. Download it and 
 7. Watch or control the Trip Assurance prototype across Normal, Stale GPS and System Mismatch states.
 8. Finish with the 30-day rollout plan and methods section.
 
-## What the public evidence says
+## Decision baseline
 
-The analysis uses public Google Play reviews for the MoveInSync employee app in India.
+The prioritization below is anchored to the human-review snapshot through 9 October 2026. The live dashboard separately shows the latest automatically refreshed rating and version evidence.
 
 | Signal | Result | Interpretation |
 | --- | ---: | --- |
@@ -131,6 +152,12 @@ npm run analyze:reviews
 npm run build:dashboard
 ```
 
+To execute the same pipeline used by the scheduled monitor:
+
+```bash
+npm run refresh:data
+```
+
 To regenerate the PDF:
 
 ```bash
@@ -138,7 +165,7 @@ python3 -m pip install reportlab
 npm run build:pdf
 ```
 
-Important: fetching again reads the current public Play Store state, so future results may differ. The committed data and analysis preserve the exact evidence used for this submission.
+Important: fetching again reads the current public Play Store state, so future results will differ. Each automated refresh is committed, leaving a Git history of the evidence used by every dashboard version. The human-coded complaint snapshot changes only after another explicit review pass.
 
 ## How the analysis was validated
 
@@ -170,7 +197,7 @@ The failed classifier experiment is retained because it demonstrates validation 
 - The combined dataset is not a random sample of all reviews.
 - Weekly ratings use only the newest-sort sample.
 - The manually reviewed set is intentionally complaint-heavy.
-- App version is missing for 84 reviews, or 9.2% of the combined dataset.
+- Some reviews do not report an app version; the current count and share are recalculated in `analysis/quantitative_summary.json`.
 - Version comparisons are descriptive and do not establish causality.
 - Google Play ratings may vary by locale, device and display context.
 - Public reviews identify symptoms; internal telemetry is required to verify root causes.

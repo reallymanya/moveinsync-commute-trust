@@ -3,9 +3,8 @@ import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
 const reviews = JSON.parse(readFileSync(resolve(root, "data/playstore_reviews.json"), "utf8"));
-const labelFiles = ["manual_labels.json", "holdout_labels.json", "final_validation_labels.json", "frozen_validation_labels.json"];
-const labels = labelFiles.flatMap((file) => JSON.parse(readFileSync(resolve(root, "analysis", file), "utf8")));
-const labelById = new Map(labels.map((item) => [item.review_id, item.primary_theme]));
+const metadata = JSON.parse(readFileSync(resolve(root, "data/playstore_metadata.json"), "utf8"));
+const manuallyReviewed = JSON.parse(readFileSync(resolve(root, "analysis/manually_reviewed_sample.json"), "utf8"));
 
 const minimalReviews = reviews.map((review) => ({
   id: review.review_id,
@@ -15,16 +14,33 @@ const minimalReviews = reviews.map((review) => ({
   c: review.collection || "",
 }));
 
-const minimalManual = reviews
-  .filter((review) => labelById.has(review.review_id))
-  .map((review) => ({
+const minimalManual = manuallyReviewed.map((review) => ({
     id: review.review_id,
     d: review.date,
     r: Number(review.rating),
     v: review.app_version || "",
     c: review.collection || "",
-    t: labelById.get(review.review_id),
+    t: review.primary_theme,
   }));
+
+const newestReviews = reviews.filter((review) => review.collection.split(",").includes("newest"));
+const refreshMeta = {
+  collectedAt: metadata.collected_at,
+  evidenceThrough: newestReviews.reduce(
+    (latest, review) => (review.date > latest ? review.date : latest),
+    newestReviews[0]?.date || metadata.collected_at,
+  ),
+  manualThrough: manuallyReviewed.reduce(
+    (latest, review) => (review.date > latest ? review.date : latest),
+    manuallyReviewed[0]?.date || metadata.collected_at,
+  ),
+  uniqueReviews: reviews.length,
+  newestReviews: newestReviews.length,
+  manuallyReviewed: manuallyReviewed.length,
+  listingScore: metadata.app.score,
+  listingRatings: metadata.app.ratings,
+  cadence: "Weekly · Mondays 07:47 IST",
+};
 
 const safeJson = (value) => JSON.stringify(value).replaceAll("<", "\\u003c");
 const template = readFileSync(resolve(root, "submission/bento-dashboard/template.html"), "utf8");
@@ -39,7 +55,8 @@ const html = template
   .replace("__LOGO_DARK_ASSET__", logoDarkAsset)
   .replace("__LOGO_LIGHT_ASSET__", logoLightAsset)
   .replace("__REVIEWS__", safeJson(minimalReviews))
-  .replace("__MANUAL__", safeJson(minimalManual));
+  .replace("__MANUAL__", safeJson(minimalManual))
+  .replace("__REFRESH_META__", safeJson(refreshMeta));
 
 const outputs = [
   resolve(root, "submission/bento-dashboard/dist/index.html"),

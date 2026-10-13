@@ -71,6 +71,7 @@ const summary = {
 
 await Promise.all([
   fs.writeFile('analysis/manually_reviewed_sample.csv', `${csv}\n`),
+  fs.writeFile('analysis/manually_reviewed_sample.json', `${JSON.stringify(combined, null, 2)}\n`),
   fs.writeFile('analysis/manual_theme_summary.json', `${JSON.stringify(summary, null, 2)}\n`),
 ]);
 

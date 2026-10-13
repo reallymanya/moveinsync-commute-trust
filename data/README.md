@@ -2,7 +2,7 @@
 
 Source app: `com.moveinsync.ets`  
 Locale: India (`in`), English (`en`)  
-Collected: 11 October 2026 IST
+Refresh timestamp: see `playstore_metadata.json` (updated by the recurring workflow)
 
 ## Files
 
@@ -10,7 +10,7 @@ Collected: 11 October 2026 IST
 - `playstore_reviews.json`: the same reviews as structured JSON.
 - `playstore_metadata.json`: listing metadata and collection details.
 
-The collection requested 600 reviews sorted by newest and 400 sorted by helpfulness. After removing duplicates, it contains 910 unique reviews: 600 represented in the newest sample and 400 represented in the helpful sample, with 90 appearing in both.
+Each collection requests 600 reviews sorted by newest and 400 sorted by helpfulness. Counts after deduplication can change between runs. The authoritative timestamp and counts for the current snapshot are stored in `playstore_metadata.json`.
 
 Public reviewer names and profile images were intentionally excluded because they are unnecessary for the analysis. Review IDs and source URLs are retained for traceability.
 
@@ -41,4 +41,4 @@ npm run fetch:reviews -- \
   --output-dir data
 ```
 
-Running the command replaces the three generated `playstore_*` files with a fresh collection and timestamp.
+Running the command replaces the three generated `playstore_*` files with a fresh collection and timestamp. The GitHub Actions workflow performs this weekly, validates the result, rebuilds the dashboard, and commits the refreshed artifacts. Human-coded themes are stored separately in `analysis/manually_reviewed_sample.json` so public-rating refreshes cannot silently change the reviewed evidence.

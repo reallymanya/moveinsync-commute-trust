@@ -2,17 +2,9 @@ import fs from 'node:fs/promises';
 
 const reviews = JSON.parse(await fs.readFile('data/playstore_reviews.json', 'utf8'));
 const metadata = JSON.parse(await fs.readFile('data/playstore_metadata.json', 'utf8'));
-const labelFiles = [
-  'analysis/manual_labels.json',
-  'analysis/holdout_labels.json',
-  'analysis/final_validation_labels.json',
-  'analysis/frozen_validation_labels.json',
-];
-const labels = (await Promise.all(labelFiles.map(async (file) => JSON.parse(await fs.readFile(file, 'utf8'))))).flat();
-const labelsById = new Map(labels.map((label) => [label.review_id, label]));
-const manuallyReviewed = reviews
-  .filter((review) => labelsById.has(review.review_id))
-  .map((review) => ({ ...review, ...labelsById.get(review.review_id) }));
+const manuallyReviewed = JSON.parse(
+  await fs.readFile('analysis/manually_reviewed_sample.json', 'utf8'),
+);
 
 const round = (value, digits = 3) => Number(value.toFixed(digits));
 const average = (values) => values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : null;
@@ -50,8 +42,10 @@ const toCsv = (rows) => {
 };
 
 const newest = reviews.filter((review) => review.collection.split(',').includes('newest'));
-const newestDate = new Date(Math.max(...newest.map((review) => new Date(review.date).getTime())));
-const recentStart = new Date(newestDate);
+const manualSnapshotDate = new Date(
+  Math.max(...manuallyReviewed.map((review) => new Date(review.date).getTime())),
+);
+const recentStart = new Date(manualSnapshotDate);
 recentStart.setUTCDate(recentStart.getUTCDate() - 90);
 
 const byWeek = new Map();
@@ -135,7 +129,7 @@ const summary = {
     grouped_problem_counts: groupSummary(manualComplaints),
     recent_90_day_window: {
       start: recentStart.toISOString(),
-      end: newestDate.toISOString(),
+      end: manualSnapshotDate.toISOString(),
       specific_complaints: recentManualComplaints.length,
       theme_counts: countBy(recentManualComplaints, (review) => review.primary_theme),
       grouped_problem_counts: groupSummary(recentManualComplaints),
@@ -148,8 +142,9 @@ const summary = {
   },
   caveats: [
     'Google Play ratings can vary by locale, device class, and display context; the scraper score is retained as metadata rather than treated as identical to the public web display.',
-    'The combined 910-review dataset joins newest and helpfulness-ranked samples and is not a random sample of all reviews.',
+    `The combined ${reviews.length}-review dataset joins newest and helpfulness-ranked samples and is not a random sample of all reviews.`,
     'The manually reviewed set is intentionally complaint-heavy; its theme shares are directional, not population prevalence estimates.',
+    `The manually reviewed theme snapshot is frozen through ${isoDate(manualSnapshotDate)} and does not refresh without a new human review.`,
     'App version is missing for some reviews and version-level results are descriptive rather than causal.',
   ],
 };
