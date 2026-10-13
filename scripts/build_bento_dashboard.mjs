@@ -6,6 +6,36 @@ const reviews = JSON.parse(readFileSync(resolve(root, "data/playstore_reviews.js
 const metadata = JSON.parse(readFileSync(resolve(root, "data/playstore_metadata.json"), "utf8"));
 const manuallyReviewed = JSON.parse(readFileSync(resolve(root, "analysis/manually_reviewed_sample.json"), "utf8"));
 
+function parseCsvLine(line) {
+  const values = [];
+  let value = "";
+  let quoted = false;
+  for (let index = 0; index < line.length; index += 1) {
+    const character = line[index];
+    if (character === '"' && line[index + 1] === '"' && quoted) {
+      value += '"';
+      index += 1;
+    } else if (character === '"') {
+      quoted = !quoted;
+    } else if (character === "," && !quoted) {
+      values.push(value);
+      value = "";
+    } else {
+      value += character;
+    }
+  }
+  values.push(value);
+  return values;
+}
+
+const snapshotLines = readFileSync(resolve(root, "data/rating_snapshots.csv"), "utf8").trim().split("\n");
+const snapshotFields = parseCsvLine(snapshotLines[0]);
+const ratingSnapshots = snapshotLines.slice(1).map((line) => Object.fromEntries(
+  snapshotFields.map((field, index) => [field, parseCsvLine(line)[index]]),
+));
+const currentSnapshot = ratingSnapshots.at(-1);
+const previousSnapshot = ratingSnapshots.at(-2);
+
 const minimalReviews = reviews.map((review) => ({
   id: review.review_id,
   d: review.date,
@@ -39,6 +69,15 @@ const refreshMeta = {
   manuallyReviewed: manuallyReviewed.length,
   listingScore: metadata.app.score,
   listingRatings: metadata.app.ratings,
+  currentSampleAverage: Number(currentSnapshot?.newest_sample_average),
+  currentLowStarShare: Number(currentSnapshot?.newest_sample_low_star_share),
+  previousCollectedAt: previousSnapshot?.collected_at || "",
+  sampleAverageChange: previousSnapshot
+    ? Number(currentSnapshot.newest_sample_average) - Number(previousSnapshot.newest_sample_average)
+    : null,
+  lowStarShareChange: previousSnapshot
+    ? Number(currentSnapshot.newest_sample_low_star_share) - Number(previousSnapshot.newest_sample_low_star_share)
+    : null,
   cadence: "Weekly · Mondays 07:47 IST",
 };
 

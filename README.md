@@ -36,7 +36,7 @@ The repository now answers “How are our Play Store ratings?” as a repeatable
 Two evidence layers are deliberately separated:
 
 - **Automatically refreshed:** listing metadata, newest-review metrics, weekly trends and version comparisons.
-- **Preserved over time:** append-only listing score, rating count and written-review count snapshots for run-to-run comparison.
+- **Preserved over time:** append-only listing score, rating counts, newest-sample average and low-star share for a visible “since previous check” comparison.
 - **Human-reviewed snapshot:** complaint themes from 160 manually coded reviews, visibly dated in the dashboard. These do not pretend to refresh automatically because the tested keyword classifier achieved only 43.3% frozen exact-match accuracy.
 
 The workflow is defined in [`.github/workflows/refresh-playstore.yml`](.github/workflows/refresh-playstore.yml). A failed collection or validation leaves the last verified dashboard live instead of publishing partial data.

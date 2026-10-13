@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 
 const metadata = JSON.parse(await fs.readFile('data/playstore_metadata.json', 'utf8'));
+const reviews = JSON.parse(await fs.readFile('data/playstore_reviews.json', 'utf8'));
 const output = 'data/rating_snapshots.csv';
 const fields = [
   'collected_at',
@@ -9,6 +10,10 @@ const fields = [
   'written_review_count',
   'installs',
   'current_version',
+  'newest_sample_size',
+  'newest_sample_average',
+  'newest_sample_low_star_share',
+  'newest_review_date',
 ];
 
 const csvEscape = (value) => {
@@ -44,7 +49,23 @@ const row = {
   written_review_count: metadata.app.reviews,
   installs: metadata.app.installs,
   current_version: metadata.app.version,
+  newest_sample_size: 0,
+  newest_sample_average: '',
+  newest_sample_low_star_share: '',
+  newest_review_date: '',
 };
+const newest = reviews.filter((review) => review.collection.split(',').includes('newest'));
+row.newest_sample_size = newest.length;
+row.newest_sample_average = (
+  newest.reduce((sum, review) => sum + Number(review.rating), 0) / newest.length
+).toFixed(3);
+row.newest_sample_low_star_share = (
+  newest.filter((review) => Number(review.rating) <= 2).length / newest.length
+).toFixed(4);
+row.newest_review_date = newest.reduce(
+  (latest, review) => (review.date > latest ? review.date : latest),
+  newest[0]?.date ?? '',
+);
 const header = existing.trim() ? existing.trimEnd() : fields.join(',');
 const next = `${header}\n${fields.map((field) => csvEscape(row[field])).join(',')}\n`;
 await fs.writeFile(output, next);
