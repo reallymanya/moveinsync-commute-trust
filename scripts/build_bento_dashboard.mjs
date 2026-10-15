@@ -1,10 +1,13 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
+import { buildAutomationSnapshot } from './build_automation_snapshot.mjs';
 
 const root = resolve(import.meta.dirname, "..");
 const reviews = JSON.parse(readFileSync(resolve(root, "data/playstore_reviews.json"), "utf8"));
 const metadata = JSON.parse(readFileSync(resolve(root, "data/playstore_metadata.json"), "utf8"));
 const manuallyReviewed = JSON.parse(readFileSync(resolve(root, "analysis/manually_reviewed_sample.json"), "utf8"));
+const automationSnapshot = buildAutomationSnapshot(root, reviews);
+writeFileSync(resolve(root, 'analysis/automation_snapshot.json'), JSON.stringify(automationSnapshot, null, 2) + '\n');
 
 function parseCsvLine(line) {
   const values = [];
@@ -122,7 +125,10 @@ const html = template
   .replace("__LOGO_LIGHT_ASSET__", logoLightAsset)
   .replace("__REVIEWS__", safeJson(minimalReviews))
   .replace("__MANUAL__", safeJson(minimalManual))
-  .replace("__REFRESH_META__", safeJson(refreshMeta));
+  .replace("__REFRESH_META__", safeJson(refreshMeta))
+  .replace("__AUTOMATION_DATA__", safeJson(automationSnapshot))
+  .replace("/* __AUTOMATION_CSS__ */", readFileSync(resolve(root, 'submission/bento-dashboard/automation.css'), 'utf8'))
+  .replace("/* __AUTOMATION_JS__ */", readFileSync(resolve(root, 'submission/bento-dashboard/automation.js'), 'utf8'));
 
 const outputs = [
   resolve(root, "submission/bento-dashboard/dist/index.html"),

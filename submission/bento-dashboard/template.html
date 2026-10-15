@@ -82,6 +82,7 @@
     @media(max-width:700px){.shell{width:min(100% - 24px,1520px)}.brand small{display:none}.utility-group{display:none}.copy-group{padding-left:0;border-left:0}.toolbar>.control-group{border:0!important}.topbar-inner{gap:12px}.toolbar{gap:8px}.filters-toggle,.copy-btn{padding:0 11px}.copy-btn i{display:none}.filter-panel{right:0}.section-head h2{font-size:clamp(44px,12vw,68px)}.monitor-head{align-items:flex-start;flex-direction:column;padding:21px 18px}.monitor-grid{grid-template-columns:1fr 1fr}.monitor-metric{padding:18px}.monitor-metric:last-child{grid-column:1/-1}.monitor-metric strong{font-size:22px}.monitor-note{padding:12px 18px}}
     @media(prefers-reduced-motion:reduce){.priority,.priority:hover,.priority:focus-visible,.priority.is-active,.priority:active{transform:none;transition:border-color 0s,box-shadow 0s}.topbar{transition:none}}
     @media print{.hero-art{display:none}.hero-content{grid-column:1/-1}.hero-copy{min-height:0;background:#fff;color:#102018}.hero-copy h1,.hero-copy strong{color:#102018}.hero-copy h1 em{color:#38882b}.hero-rail{color:#536159;border-color:#dce5df}.decision{display:grid}.filter-context{margin-top:12px}.rating-monitor{break-inside:avoid}.monitor-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.monitor-head{padding:16px 18px}.monitor-metric{padding:14px 12px}.monitor-metric strong{font-size:17px}.monitor-note{padding:9px 18px}}
+    /* __AUTOMATION_CSS__ */
   </style>
 </head>
 <body>
@@ -131,7 +132,18 @@
         <article class="monitor-metric"><span>New written reviews</span><strong id="newWrittenReviews">—</strong><small id="writtenReviewContext">—</small></article>
         <article class="monitor-metric"><span>Next scheduled refresh</span><strong id="nextRefreshStatus">—</strong><small>GitHub Actions · 07:47 IST</small></article>
       </div>
-      <p class="monitor-note">Official listing movement is tracked automatically. Complaint themes remain a human-reviewed snapshot through <strong id="themesAsOf">—</strong>.</p>
+      <p class="monitor-note">Official listing movement is tracked automatically. Complaint themes remain a human-reviewed snapshot through <strong id="themesAsOf">—</strong>. <a href="#automation">Inspect review automation ↓</a></p>
+    </section>
+    <section class="automation-panel" id="automation" aria-labelledby="automationTitle">
+      <div class="automation-heading"><div><span class="eyebrow">Review intelligence · semantic classification</span><h2 id="automationTitle">From new reviews to checked evidence.</h2><p>Saved results from the Python + Groq pipeline. Model suggestions stay separate from the verified complaint charts below.</p></div><span class="automation-badge">Human review required</span></div>
+      <div class="automation-kpis" id="automationKpis"></div>
+      <div class="automation-context"><p id="automationFreshness"></p><p id="automationCoverage"></p></div>
+      <div class="automation-tools"><div><label for="automationStatus">Prediction status</label><select id="automationStatus"><option value="all">All attempted reviews</option><option value="review">Awaiting human review</option><option value="pending">Pending retry</option><option value="approved">Human-approved</option></select></div><div><label for="automationTheme">Category</label><select id="automationTheme"><option value="all">All categories</option></select></div><button type="button" id="automationReset">Reset view</button><button type="button" id="automationDownload">Download visible results ↓</button></div>
+      <p class="automation-scope" id="automationScope" aria-live="polite"></p>
+      <div class="automation-categories" id="automationCategories"></div>
+      <div id="automationReviews" class="automation-reviews"></div>
+      <div class="automation-bottom"><article><h3>Evaluation coverage</h3><p id="automationEvaluation"></p></article><details><summary>How to run the next batch</summary><p>This static page displays the last build. It cannot run Python or call Groq. Run these commands locally, then reload the page:</p><pre><code>npm run classify:llm -- --limit 5
+npm run build:dashboard</code></pre><p>On macOS, prefix the first command with <code>SSL_CERT_FILE=/etc/ssl/cert.pem</code> if Python reports a certificate error and that trusted certificate file exists.</p><p>Use <code>npm run review:llm</code> to export the review worksheet. Approve or correct it, then run <code>npm run review:llm -- --apply</code> and rebuild.</p><p>Scheduled classification requires a configured GitHub Actions <code>GROQ_API_KEY</code> secret. Without it, the workflow skips classification and continues the ratings refresh. This snapshot alone does not confirm a scheduled classification run.</p></details></div>
     </section>
     <div class="filter-context reveal"><span id="filterLabel">All ratings · Last 90 days · All versions</span><strong id="sampleCount" aria-live="polite">Reviews in view</strong></div>
 
@@ -262,5 +274,7 @@
     if(reduceMotion.matches){demoStatus.textContent='Choose a state · motion reduced'}else{const demoObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting&&!demoPlayed&&!demoUserControlled){demoTimers.push(setTimeout(playDemo,500));demoObserver.unobserve(tripLab)}}),{threshold:.16,rootMargin:'0px 0px -8%'});demoObserver.observe(tripLab)}
     const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.08,rootMargin:'0px 0px -6%'});document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=Math.min(i%5*65,260)+'ms';io.observe(el)});paintMotion();update();
   </script>
+  <script id="automationData" type="application/json">__AUTOMATION_DATA__</script>
+  <script>/* __AUTOMATION_JS__ */</script>
 </body>
 </html>

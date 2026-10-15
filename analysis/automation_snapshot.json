@@ -1,0 +1,112 @@
+{
+  "records": [
+    {
+      "id": "a1062e2d-fd3d-4fda-b3be-b8e52ef6f5fe",
+      "contentHash": "185c2919240499575626ee6d6b9a50d1496345a1fd2d2e4df8c6b28c1a2f9823",
+      "text": "it says some bug in app, not able to open it",
+      "rating": 1,
+      "version": "12.20.0",
+      "processedAt": "2026-10-15T04:59:00.853032+00:00",
+      "model": "openai/gpt-oss-20b",
+      "status": "review",
+      "theme": "stability_performance",
+      "severity": "high",
+      "evidence": [
+        "bug in app",
+        "not able to open it"
+      ],
+      "rationale": "App cannot be opened, indicating a startup failure.",
+      "reasons": [
+        "human_approval_required"
+      ]
+    },
+    {
+      "id": "ad77ca66-bc24-4364-9dd9-e959cdc7f7a1",
+      "contentHash": "279cfc2f33a774e31d56ad28a52d141bc33bee3210c909f0c37c5cbbced239d8",
+      "text": "Great smooth experience. no clutter, straight to the point.",
+      "rating": 5,
+      "version": "12.19.0",
+      "processedAt": "2026-10-15T04:59:02.092387+00:00",
+      "model": "openai/gpt-oss-20b",
+      "status": "review",
+      "theme": "positive",
+      "severity": "low",
+      "evidence": [
+        "Great smooth experience",
+        "no clutter",
+        "straight to the point"
+      ],
+      "rationale": "Review expresses overall satisfaction with app design and usability.",
+      "reasons": [
+        "human_approval_required"
+      ]
+    },
+    {
+      "id": "64b51d1b-0bbd-489d-b43d-ce1d8cdf89db",
+      "contentHash": "b398a5178f22af7f320754f023d7a49bfe1753fd36a219b334668ea46f6dc384",
+      "text": "rubbish app. keeps crashing everyday.",
+      "rating": 1,
+      "version": "12.20.0",
+      "processedAt": "2026-10-15T04:59:03.117192+00:00",
+      "model": "openai/gpt-oss-20b",
+      "status": "pending",
+      "theme": null,
+      "severity": null,
+      "evidence": [],
+      "rationale": "",
+      "reasons": [
+        "http_429"
+      ]
+    },
+    {
+      "id": "46e7fd2e-b665-429c-b9be-e84fd818dbb1",
+      "contentHash": "69589d3e26bdbd8b2785f99d2111df7104403152f697830fdbf2d42173eb6e13",
+      "text": "nice, user friendly app. easy to use and track cab details.",
+      "rating": 4,
+      "version": "12.19.0",
+      "processedAt": "2026-10-15T04:59:03.256189+00:00",
+      "model": "openai/gpt-oss-20b",
+      "status": "pending",
+      "theme": null,
+      "severity": null,
+      "evidence": [],
+      "rationale": "",
+      "reasons": [
+        "http_429"
+      ]
+    },
+    {
+      "id": "d9aa7fa2-f837-4c9e-8857-928239690ca2",
+      "contentHash": "d6bf1ba3274275525202a63d1199fded3762042e49d696f25f6fe0ec552f957d",
+      "text": "good",
+      "rating": 5,
+      "version": "12.19.0",
+      "processedAt": "2026-10-15T04:59:03.403224+00:00",
+      "model": "openai/gpt-oss-20b",
+      "status": "pending",
+      "theme": null,
+      "severity": null,
+      "evidence": [],
+      "rationale": "",
+      "reasons": [
+        "http_429"
+      ]
+    }
+  ],
+  "excluded": 0,
+  "collectionSize": 911,
+  "attempted": 5,
+  "awaitingReview": 2,
+  "pending": 3,
+  "approved": 0,
+  "unprocessed": 906,
+  "lastAttempt": "2026-10-15T04:59:03.403224+00:00",
+  "benchmark": {
+    "evaluated": 4,
+    "total": 100,
+    "correct": 4,
+    "attempted": 5,
+    "lastAttempt": "2026-10-15T05:00:38.989807+00:00"
+  },
+  "source": "Saved local Groq predictions joined to the current collected reviews by ID and content hash. Benchmark uses reserved labels and frozen review text."
+}

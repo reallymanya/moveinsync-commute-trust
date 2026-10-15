@@ -2,3 +2,10 @@ node_modules/
 dist/
 submission/bento-dashboard/dist/
 .DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+# Generated predictions and local review decisions are not submission evidence.
+analysis/llm/

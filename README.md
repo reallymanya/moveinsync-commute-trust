@@ -41,6 +41,14 @@ Two evidence layers are deliberately separated:
 
 The workflow is defined in [`.github/workflows/refresh-playstore.yml`](.github/workflows/refresh-playstore.yml). A failed collection or validation leaves the last verified dashboard live instead of publishing partial data.
 
+## Semantic review classification
+
+A new Python pipeline extends the Node.js collector with Groq-based review classification. It preserves the existing 13-theme taxonomy, validates quoted evidence, checkpoints work, flags uncertain cases and supports explicit human corrections. It is inference, not model training.
+
+See [the automation guide](submission/AUTOMATION.md) for setup, evaluation, review and limitations. Run `npm run test:llm` and `npm run classify:llm -- --dry-run --limit 5` without credentials. For actual predictions, save `GROQ_API_KEY` in an ignored `.env` file and run `npm run classify:llm -- --limit 5`.
+
+The updated refresh workflow can optionally classify new reviews when the repository secret `GROQ_API_KEY` is configured. It saves suggestions as downloadable Actions artifacts and restores a checkpoint between runs. The dashboard's new **Review intelligence** section shows saved results with status/category filters, expandable evidence, a filtered download and benchmark coverage. Its portable `analysis/automation_snapshot.json` supports clean builds. Generated labels do not replace the submitted dashboard's manual evidence. A successful local API test does not establish that the GitHub Actions secret has been configured.
+
 ## A five-minute recruiter walkthrough
 
 1. Open the interactive dashboard.

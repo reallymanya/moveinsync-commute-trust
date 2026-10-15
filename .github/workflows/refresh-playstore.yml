@@ -31,10 +31,63 @@ jobs:
         run: npm ci
 
       - name: Fetch, analyse, validate and rebuild
+        id: refresh
         run: npm run refresh:data
+
+      # Predictions are review artifacts, never automatically promoted to human evidence.
+      - name: Set up Python for optional semantic classification
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Detect classifier credentials
+        id: classifier
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          if [ -n "$GROQ_API_KEY" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "Groq classification skipped: add the GROQ_API_KEY repository secret to enable it."
+          fi
+
+      - name: Restore classification checkpoint
+        if: steps.classifier.outputs.enabled == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: analysis/llm/live
+          key: groq-reviews-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: groq-reviews-v1-
+
+      - name: Classify up to 100 new or edited reviews
+        if: steps.classifier.outputs.enabled == 'true'
+        id: classify
+        continue-on-error: true
+        timeout-minutes: 7
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python3 scripts/classify_reviews_llm.py --limit 100
+
+      - name: Save classification checkpoint
+        if: always() && steps.classifier.outputs.enabled == 'true' && steps.classify.outcome != 'skipped'
+        uses: actions/cache/save@v4
+        with:
+          path: analysis/llm/live
+          key: groq-reviews-v1-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Upload model suggestions for review
+        if: always() && steps.classifier.outputs.enabled == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-classification-${{ github.run_id }}
+          path: analysis/llm/live/
+          if-no-files-found: warn
+          retention-days: 30
 
       - name: Commit refreshed evidence
         run: |
+          npm run build:dashboard
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
@@ -45,6 +98,7 @@ jobs:
             analysis/quantitative_summary.json \
             analysis/recent_rating_by_version.csv \
             analysis/recent_rating_by_week.csv \
+            analysis/automation_snapshot.json \
             submission/final/MoveInSync_FDE_Interactive_Dashboard.html
           if git diff --cached --quiet; then
             echo "No public evidence changed."
