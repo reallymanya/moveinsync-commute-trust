@@ -94,12 +94,12 @@
     }
   ],
   "excluded": 0,
-  "collectionSize": 911,
+  "collectionSize": 922,
   "attempted": 5,
   "awaitingReview": 2,
   "pending": 3,
   "approved": 0,
-  "unprocessed": 906,
+  "unprocessed": 917,
   "lastAttempt": "2026-10-15T04:59:03.403224+00:00",
   "benchmark": {
     "evaluated": 4,
