@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-19T07:52:26.729Z",
+  "generated_at": "2026-10-26T07:52:06.529Z",
   "source_scope": {
     "app_id": "com.moveinsync.ets",
     "country": "in",
     "language": "en",
-    "listing_score_returned_by_scraper": 4.6401114,
-    "listing_rating_count": 115145,
-    "listing_review_count": 23665,
+    "listing_score_returned_by_scraper": 4.640726,
+    "listing_rating_count": 115412,
+    "listing_review_count": 23704,
     "installs": "1,000,000+",
-    "current_version": "12.19.0"
+    "current_version": "12.20.0"
   },
   "data_quality": {
-    "unique_reviews": 922,
+    "unique_reviews": 899,
     "duplicate_review_ids_after_deduplication": 0,
     "missing_review_text": 0,
     "missing_rating": 0,
-    "missing_app_version": 83,
-    "missing_app_version_share": 0.09,
-    "developer_reply_count": 107,
-    "developer_reply_share": 0.116,
-    "oldest_review_date": "2018-09-21T06:50:59.796Z",
-    "newest_review_date": "2026-10-17T23:56:07.788Z"
+    "missing_app_version": 82,
+    "missing_app_version_share": 0.091,
+    "developer_reply_count": 90,
+    "developer_reply_share": 0.1,
+    "oldest_review_date": "2018-10-03T05:10:13.226Z",
+    "newest_review_date": "2026-10-24T20:57:36.515Z"
   },
   "newest_sample": {
     "size": 600,
-    "start": "2026-08-03T18:32:26.300Z",
-    "end": "2026-10-17T23:56:07.788Z",
+    "start": "2026-08-07T21:05:45.501Z",
+    "end": "2026-10-24T20:57:36.515Z",
     "reviews": 600,
-    "average_rating": 3.78,
-    "one_star_share": 0.265,
-    "low_star_share": 0.288,
+    "average_rating": 3.81,
+    "one_star_share": 0.26,
+    "low_star_share": 0.287,
     "rating_counts": {
-      "1": 159,
-      "2": 14,
-      "3": 16,
-      "4": 23,
-      "5": 388
+      "1": 156,
+      "2": 16,
+      "3": 11,
+      "4": 22,
+      "5": 395
     }
   },
   "manual_analysis": {
@@ -116,7 +116,7 @@
   },
   "caveats": [
     "Google Play ratings can vary by locale, device class, and display context; the scraper score is retained as metadata rather than treated as identical to the public web display.",
-    "The combined 922-review dataset joins newest and helpfulness-ranked samples and is not a random sample of all reviews.",
+    "The combined 899-review dataset joins newest and helpfulness-ranked samples and is not a random sample of all reviews.",
     "The manually reviewed set is intentionally complaint-heavy; its theme shares are directional, not population prevalence estimates.",
     "The manually reviewed theme snapshot is frozen through 2026-10-09 and does not refresh without a new human review.",
     "App version is missing for some reviews and version-level results are descriptive rather than causal."

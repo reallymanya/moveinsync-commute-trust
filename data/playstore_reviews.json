@@ -1,5 +1,521 @@
 [
   {
+    "review_id": "8603b38c-ead5-4531-9dc4-32005c9d345f",
+    "date": "2026-10-24T20:57:36.515Z",
+    "rating": 1,
+    "review_text": "The app is too slow and is very slow to show the correct location and also the map face is really not good .. worst app to use",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=8603b38c-ead5-4531-9dc4-32005c9d345f",
+    "collection": "newest"
+  },
+  {
+    "review_id": "43d90b3c-0443-4073-8647-6aee98c78bd4",
+    "date": "2026-10-24T11:03:16.176Z",
+    "rating": 2,
+    "review_text": "still irritating push message of trip is not booked despite having valid trip booked. 06-10-2026 even after booked the trip it keep sends the push notification that trip is not booked. old: Bring monthly view ,not just day view...",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "Hi,\nWe've forwarded your feedback to our developers. Thank you for taking out the time to send us your suggestions!",
+    "developer_reply_date": "2023-10-29T14:08:08.459Z",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=43d90b3c-0443-4073-8647-6aee98c78bd4",
+    "collection": "newest"
+  },
+  {
+    "review_id": "c358aa46-127e-46a9-b6b7-5687a69ca987",
+    "date": "2026-10-24T10:41:50.404Z",
+    "rating": 5,
+    "review_text": "nice app for transport",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=c358aa46-127e-46a9-b6b7-5687a69ca987",
+    "collection": "newest"
+  },
+  {
+    "review_id": "95946292-65c7-430d-b676-38fbddbd1046",
+    "date": "2026-10-24T02:03:44.275Z",
+    "rating": 1,
+    "review_text": "unable too log in and even customer care not helpful",
+    "app_version": "",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=95946292-65c7-430d-b676-38fbddbd1046",
+    "collection": "newest"
+  },
+  {
+    "review_id": "3e5179f1-454d-470f-ac67-8de7039125c5",
+    "date": "2026-10-23T23:48:36.602Z",
+    "rating": 5,
+    "review_text": "Reliable",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3e5179f1-454d-470f-ac67-8de7039125c5",
+    "collection": "newest"
+  },
+  {
+    "review_id": "212424ca-1846-4101-8ebd-5d5913d0df95",
+    "date": "2026-10-23T23:32:21.192Z",
+    "rating": 5,
+    "review_text": "good so far",
+    "app_version": "12.21.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=212424ca-1846-4101-8ebd-5d5913d0df95",
+    "collection": "newest"
+  },
+  {
+    "review_id": "0cb3c4cb-c7ef-4e97-8ae5-a76e758ed3ea",
+    "date": "2026-10-23T17:58:41.486Z",
+    "rating": 1,
+    "review_text": "The transportation service has become one of the most poorly managed employee facilities. The team responsible for route mapping appears to lack even the basic understanding required to allocate employees to the correct routes. Employees residing in the West Zone are being unnecessarily clubbed with East Zone routes, resulting in inefficient transportation planning and unnecessary inconvenience for employees.",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=0cb3c4cb-c7ef-4e97-8ae5-a76e758ed3ea",
+    "collection": "newest"
+  },
+  {
+    "review_id": "796770ce-fc68-4d27-ab48-43478d151bfb",
+    "date": "2026-10-23T17:47:28.484Z",
+    "rating": 5,
+    "review_text": "good",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=796770ce-fc68-4d27-ab48-43478d151bfb",
+    "collection": "newest"
+  },
+  {
+    "review_id": "4392808f-d638-461a-aec8-32431a9bfd14",
+    "date": "2026-10-23T16:10:44.996Z",
+    "rating": 5,
+    "review_text": "good 👍",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=4392808f-d638-461a-aec8-32431a9bfd14",
+    "collection": "newest"
+  },
+  {
+    "review_id": "24c64783-f8b4-492f-91e2-25a9dd100c49",
+    "date": "2026-10-23T15:15:50.893Z",
+    "rating": 1,
+    "review_text": "Worst service",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=24c64783-f8b4-492f-91e2-25a9dd100c49",
+    "collection": "newest"
+  },
+  {
+    "review_id": "fb5d7503-0d59-4fd6-849f-e159629d1ebd",
+    "date": "2026-10-22T17:39:23.910Z",
+    "rating": 2,
+    "review_text": "not able to book schedule showing I don't have any shifts..it's very hard to book cab in app",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=fb5d7503-0d59-4fd6-849f-e159629d1ebd",
+    "collection": "newest"
+  },
+  {
+    "review_id": "02550307-67ed-4eef-849c-4eea3addf77e",
+    "date": "2026-10-22T15:46:24.903Z",
+    "rating": 5,
+    "review_text": "goated app",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=02550307-67ed-4eef-849c-4eea3addf77e",
+    "collection": "newest"
+  },
+  {
+    "review_id": "17707228-d616-4ae2-bc2c-3a50a24aad2f",
+    "date": "2026-10-22T14:54:47.403Z",
+    "rating": 1,
+    "review_text": "completely unintuitive",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=17707228-d616-4ae2-bc2c-3a50a24aad2f",
+    "collection": "newest"
+  },
+  {
+    "review_id": "86257438-b840-40a0-b50e-334cbf3e128c",
+    "date": "2026-10-22T09:23:54.847Z",
+    "rating": 5,
+    "review_text": "easy to use",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=86257438-b840-40a0-b50e-334cbf3e128c",
+    "collection": "newest"
+  },
+  {
+    "review_id": "0320fe6e-be32-4da2-a385-1e3a46c5bc01",
+    "date": "2026-10-22T04:49:53.252Z",
+    "rating": 5,
+    "review_text": "good",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=0320fe6e-be32-4da2-a385-1e3a46c5bc01",
+    "collection": "newest"
+  },
+  {
+    "review_id": "379c36db-1b36-4d6a-99b7-dd8d1653737c",
+    "date": "2026-10-21T22:08:33.481Z",
+    "rating": 5,
+    "review_text": "good",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=379c36db-1b36-4d6a-99b7-dd8d1653737c",
+    "collection": "newest"
+  },
+  {
+    "review_id": "626c174d-79c7-484d-9e24-e5481009a1ba",
+    "date": "2026-10-21T19:27:19.338Z",
+    "rating": 5,
+    "review_text": "good",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=626c174d-79c7-484d-9e24-e5481009a1ba",
+    "collection": "newest"
+  },
+  {
+    "review_id": "8f196fb6-c1b4-4a2d-b96e-965a8177f3df",
+    "date": "2026-10-21T18:46:02.129Z",
+    "rating": 1,
+    "review_text": "poor service no proper management no schedule adherence no interactive from management lot of negligence.....and many more negatives",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=8f196fb6-c1b4-4a2d-b96e-965a8177f3df",
+    "collection": "newest"
+  },
+  {
+    "review_id": "cb8dd7b1-1aaf-4ed1-aa0a-41fa235db41f",
+    "date": "2026-10-21T17:22:18.322Z",
+    "rating": 5,
+    "review_text": "Good to use app.",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=cb8dd7b1-1aaf-4ed1-aa0a-41fa235db41f",
+    "collection": "newest"
+  },
+  {
+    "review_id": "8374b9d7-0e78-4139-9e6a-4d4e6883dce8",
+    "date": "2026-10-21T16:40:57.946Z",
+    "rating": 5,
+    "review_text": "good",
+    "app_version": "",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=8374b9d7-0e78-4139-9e6a-4d4e6883dce8",
+    "collection": "newest"
+  },
+  {
+    "review_id": "29e854ef-eff1-4c48-9ff9-d3475df656a0",
+    "date": "2026-10-21T16:09:05.418Z",
+    "rating": 5,
+    "review_text": "gud",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=29e854ef-eff1-4c48-9ff9-d3475df656a0",
+    "collection": "newest"
+  },
+  {
+    "review_id": "bde7e4c0-cc31-434c-aa26-0623a625ac95",
+    "date": "2026-10-21T14:35:43.413Z",
+    "rating": 5,
+    "review_text": "useful app",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=bde7e4c0-cc31-434c-aa26-0623a625ac95",
+    "collection": "newest"
+  },
+  {
+    "review_id": "8003c5c7-a1f6-421d-9be7-35a922d54249",
+    "date": "2026-10-21T12:33:08.594Z",
+    "rating": 5,
+    "review_text": "good experience",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=8003c5c7-a1f6-421d-9be7-35a922d54249",
+    "collection": "newest"
+  },
+  {
+    "review_id": "00f7ff74-b17d-442e-aff7-b764e4e207ae",
+    "date": "2026-10-21T08:26:23.415Z",
+    "rating": 5,
+    "review_text": "great support",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=00f7ff74-b17d-442e-aff7-b764e4e207ae",
+    "collection": "newest"
+  },
+  {
+    "review_id": "701fd120-862e-4827-b8e4-b068d0cdad32",
+    "date": "2026-10-21T03:56:28.924Z",
+    "rating": 5,
+    "review_text": "Good app for overall coordination",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=701fd120-862e-4827-b8e4-b068d0cdad32",
+    "collection": "newest"
+  },
+  {
+    "review_id": "6f3fff8c-ca9e-4c3a-9d91-e4940d0dd59d",
+    "date": "2026-10-21T01:08:46.105Z",
+    "rating": 5,
+    "review_text": "Good",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=6f3fff8c-ca9e-4c3a-9d91-e4940d0dd59d",
+    "collection": "newest"
+  },
+  {
+    "review_id": "17d8c9b9-0bd1-434e-ab06-29559cb45d5d",
+    "date": "2026-10-20T23:50:34.386Z",
+    "rating": 1,
+    "review_text": "waste app, pathetic service, no two way communication available, Drivers do not take the responsibility to reach the passenger, they stand at one random place which is no way related to the passenger location. They don't have the knowledge of reading google maps. Pathetic Response from Admin team as they keep phone switched off. This is really ridiculous and keep the blame on passenger. Hopeless Service. They do not deserve even that one star.",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=17d8c9b9-0bd1-434e-ab06-29559cb45d5d",
+    "collection": "newest"
+  },
+  {
+    "review_id": "a983c088-a459-4555-8ba2-45d2811f1aab",
+    "date": "2026-10-20T22:04:45.859Z",
+    "rating": 5,
+    "review_text": "good aap",
+    "app_version": "12.13.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=a983c088-a459-4555-8ba2-45d2811f1aab",
+    "collection": "newest"
+  },
+  {
+    "review_id": "e955a329-d1a9-4143-926a-b2a25112e885",
+    "date": "2026-10-20T21:25:38.270Z",
+    "rating": 5,
+    "review_text": "amazing",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=e955a329-d1a9-4143-926a-b2a25112e885",
+    "collection": "newest"
+  },
+  {
+    "review_id": "3e8b13a9-f3b5-40e4-ac18-4c0055f3ad06",
+    "date": "2026-10-20T21:13:35.898Z",
+    "rating": 5,
+    "review_text": "user friendly app and reliable",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3e8b13a9-f3b5-40e4-ac18-4c0055f3ad06",
+    "collection": "newest"
+  },
+  {
+    "review_id": "f9556b52-cb5b-4c5b-a4ff-48268933c426",
+    "date": "2026-10-20T15:41:29.746Z",
+    "rating": 1,
+    "review_text": "worst service ever in cab services and amit is way to much uncooperative person ,",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=f9556b52-cb5b-4c5b-a4ff-48268933c426",
+    "collection": "newest"
+  },
+  {
+    "review_id": "e7f99205-1533-4f53-b1e5-7ff4af9ea923",
+    "date": "2026-10-20T06:23:28.610Z",
+    "rating": 5,
+    "review_text": "it's good",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=e7f99205-1533-4f53-b1e5-7ff4af9ea923",
+    "collection": "newest"
+  },
+  {
+    "review_id": "6f2a059f-92f7-4be8-98ec-ae67ff613481",
+    "date": "2026-10-20T05:34:28.996Z",
+    "rating": 5,
+    "review_text": "coolest app",
+    "app_version": "11.5.20",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=6f2a059f-92f7-4be8-98ec-ae67ff613481",
+    "collection": "newest"
+  },
+  {
+    "review_id": "748751fd-b861-4c5a-b525-2472321a5930",
+    "date": "2026-10-20T04:54:01.431Z",
+    "rating": 1,
+    "review_text": "lawde ka app aur lawde ki company",
+    "app_version": "12.20.0",
+    "helpful_count": 1,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=748751fd-b861-4c5a-b525-2472321a5930",
+    "collection": "newest"
+  },
+  {
+    "review_id": "cfe32bb4-eeab-44f1-bcf4-973fce4bc11c",
+    "date": "2026-10-20T04:02:58.500Z",
+    "rating": 5,
+    "review_text": "easy to use",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=cfe32bb4-eeab-44f1-bcf4-973fce4bc11c",
+    "collection": "newest"
+  },
+  {
+    "review_id": "00ac7c52-7fee-4765-a182-35c7acc6beab",
+    "date": "2026-10-19T21:21:36.336Z",
+    "rating": 5,
+    "review_text": "Nice Experience",
+    "app_version": "12.20.0",
+    "helpful_count": 1,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=00ac7c52-7fee-4765-a182-35c7acc6beab",
+    "collection": "newest"
+  },
+  {
+    "review_id": "322185ad-16be-4659-b653-94f6a1d60873",
+    "date": "2026-10-19T20:23:12.180Z",
+    "rating": 5,
+    "review_text": "Easy and convenient to use",
+    "app_version": "",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=322185ad-16be-4659-b653-94f6a1d60873",
+    "collection": "newest"
+  },
+  {
+    "review_id": "9ec6fb34-c820-447c-bf12-cf232f2c3cae",
+    "date": "2026-10-19T18:47:46.611Z",
+    "rating": 5,
+    "review_text": "best till date",
+    "app_version": "12.20.0",
+    "helpful_count": 1,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=9ec6fb34-c820-447c-bf12-cf232f2c3cae",
+    "collection": "newest"
+  },
+  {
+    "review_id": "3a794faf-0609-4114-b530-f4e5cd822ba3",
+    "date": "2026-10-19T15:08:51.271Z",
+    "rating": 5,
+    "review_text": "good",
+    "app_version": "",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3a794faf-0609-4114-b530-f4e5cd822ba3",
+    "collection": "newest"
+  },
+  {
+    "review_id": "9c25ece7-8f97-48d0-8283-51e2185ad229",
+    "date": "2026-10-19T12:44:27.200Z",
+    "rating": 5,
+    "review_text": "good",
+    "app_version": "",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=9c25ece7-8f97-48d0-8283-51e2185ad229",
+    "collection": "newest"
+  },
+  {
+    "review_id": "7490bd42-d3c1-4930-bc67-acead5f7ab5b",
+    "date": "2026-10-19T09:35:14.295Z",
+    "rating": 1,
+    "review_text": "can you please look after the bug because I am unable to open this application",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=7490bd42-d3c1-4930-bc67-acead5f7ab5b",
+    "collection": "newest"
+  },
+  {
+    "review_id": "4401a7b0-eeaa-49df-90b1-27834d95b539",
+    "date": "2026-10-19T09:25:54.165Z",
+    "rating": 2,
+    "review_text": "Unable to Schedule Manual Pickup and drop",
+    "app_version": "12.20.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=4401a7b0-eeaa-49df-90b1-27834d95b539",
+    "collection": "newest,helpful"
+  },
+  {
+    "review_id": "8f93a060-37bd-41d9-8e1c-2f344294ab87",
+    "date": "2026-10-18T13:02:56.442Z",
+    "rating": 5,
+    "review_text": "app is good very easy and clean",
+    "app_version": "12.19.0",
+    "helpful_count": 0,
+    "developer_reply": "",
+    "developer_reply_date": "",
+    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=8f93a060-37bd-41d9-8e1c-2f344294ab87",
+    "collection": "newest"
+  },
+  {
     "review_id": "3fb40eb1-560d-46c6-837f-18d9e42b4072",
     "date": "2026-10-17T23:56:07.788Z",
     "rating": 5,
@@ -17,7 +533,7 @@
     "rating": 5,
     "review_text": "it is very good app for corporate cab services",
     "app_version": "12.20.0",
-    "helpful_count": 0,
+    "helpful_count": 1,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=a4234dec-2e23-47d9-a652-e27d20219f9a",
@@ -41,7 +557,7 @@
     "rating": 1,
     "review_text": "Genpact cabs can make u travel through the entire city With charging. Sequences are like wow.",
     "app_version": "12.20.0",
-    "helpful_count": 0,
+    "helpful_count": 1,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=6d759825-2dec-409b-b559-bf0eb8f02f7d",
@@ -117,7 +633,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=f7ae1a95-7a1f-4e35-925f-7ff1a99f6922",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "38aff3ae-5c04-446c-ad65-accc990cc92a",
@@ -129,7 +645,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=38aff3ae-5c04-446c-ad65-accc990cc92a",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "7280515e-7d9d-4ab5-a965-c9506f9be1b6",
@@ -137,7 +653,7 @@
     "rating": 5,
     "review_text": "outstanding service. keep it up.",
     "app_version": "12.20.0",
-    "helpful_count": 0,
+    "helpful_count": 1,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=7280515e-7d9d-4ab5-a965-c9506f9be1b6",
@@ -153,7 +669,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=bf123174-44a9-431d-b335-018cd2a28749",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "6c9840ce-ea25-4287-9de0-5fff9e4f59dd",
@@ -197,7 +713,7 @@
     "rating": 1,
     "review_text": "WORST WORST WORST SERVICE",
     "app_version": "12.20.0",
-    "helpful_count": 0,
+    "helpful_count": 1,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=7a38f29a-9c71-42bd-b607-332450fd253c",
@@ -209,7 +725,7 @@
     "rating": 5,
     "review_text": "sometimes I'm not able to confirm safe reach, if I don't click on notification, it won't pop up again. but very thankful to app and it's notification. tells me to check my cab details and reminds me a cab is scheduled. forgot to cancel cab and the notification reminded me thanks devs",
     "app_version": "12.20.0",
-    "helpful_count": 0,
+    "helpful_count": 1,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=dc871c88-187f-4814-8767-e0511d7ae177",
@@ -261,7 +777,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=96da1c30-55db-4a2e-9cf4-3eef9606f693",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "7c658e0b-4540-4ae2-9f61-4f94a4339f00",
@@ -281,7 +797,7 @@
     "rating": 5,
     "review_text": "Excellent 👍🏻",
     "app_version": "12.20.0",
-    "helpful_count": 0,
+    "helpful_count": 1,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=ad8cef26-8c88-4ed7-a13b-951056c044b4",
@@ -309,7 +825,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=4d039900-1773-450d-973c-725b26443ae1",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "97afb3bf-a556-45db-94cc-15bee02afa1a",
@@ -341,7 +857,7 @@
     "rating": 5,
     "review_text": "good one. easy to use",
     "app_version": "12.20.0",
-    "helpful_count": 0,
+    "helpful_count": 1,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3f57dd3d-2141-47bc-8264-d232785d5aa5",
@@ -413,11 +929,11 @@
     "rating": 5,
     "review_text": "Smooth and convenient ride...well managed",
     "app_version": "12.20.0",
-    "helpful_count": 0,
+    "helpful_count": 1,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=2d3b7fc8-2ed2-436c-b6f1-4f926aca00f3",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "c1f187aa-f5f0-4fa3-8546-eec06fa3ba2b",
@@ -513,7 +1029,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=d6d55ca7-00c4-485c-90e1-18d3cd0c248c",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "88e588e3-3047-41d5-a478-81d6d3a5b8ce",
@@ -537,7 +1053,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=4666dea6-955b-4a91-a64c-d9506a432d74",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "7f593b3d-0641-4259-9c30-4b5208aff5c0",
@@ -597,7 +1113,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=46e7fd2e-b665-429c-b9be-e84fd818dbb1",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "d9aa7fa2-f837-4c9e-8857-928239690ca2",
@@ -681,7 +1197,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3d87f169-2508-4a07-9e5a-d63b2c548ed3",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "8ec4e20f-62d0-4cd8-a5f6-cd58da422616",
@@ -741,7 +1257,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=7476b129-f0da-458e-8f86-d77ba2f9a710",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "2b3d9423-1036-415c-bc42-f0a674de63d4",
@@ -801,7 +1317,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=f9fce9fe-8115-4a30-8d09-d8bdac76837d",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "967a62da-d474-43d4-85c1-00cb13fee226",
@@ -849,7 +1365,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=2ce14584-824f-4d19-a7ce-95a17656fc8f",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "5f781610-319a-4412-b308-95a6ec8ee6f6",
@@ -861,7 +1377,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=5f781610-319a-4412-b308-95a6ec8ee6f6",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "c679b407-29e9-473b-9076-d6fa6f1b53b6",
@@ -897,7 +1413,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=387a67a5-1843-45ee-b837-91d7eb1fccce",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "0e4c9695-fb96-4ed5-93b5-56dd81a67103",
@@ -921,7 +1437,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=225d87f1-5d2f-4d23-ac26-ecda35211579",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "22f0722e-9334-4444-a21d-438768c6de2d",
@@ -1005,7 +1521,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=863096b0-872e-4623-b5c0-e73979924614",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "9f81f8c6-fddd-429a-8180-f14b1f0cda0f",
@@ -1125,18 +1641,6 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=9398034a-f4a6-4d99-b42d-2444259b6245",
-    "collection": "newest"
-  },
-  {
-    "review_id": "43d90b3c-0443-4073-8647-6aee98c78bd4",
-    "date": "2026-10-06T10:16:46.889Z",
-    "rating": 1,
-    "review_text": "06-10-2026 even after booked the trip it keep sends the push notification that trip is not booked. old: Bring monthly view ,not just day view...",
-    "app_version": "12.19.0",
-    "helpful_count": 0,
-    "developer_reply": "Hi,\nWe've forwarded your feedback to our developers. Thank you for taking out the time to send us your suggestions!",
-    "developer_reply_date": "2023-10-29T14:08:08.459Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=43d90b3c-0443-4073-8647-6aee98c78bd4",
     "collection": "newest"
   },
   {
@@ -1365,7 +1869,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=bc736dc0-8fd1-45e8-b39e-b16020a4e2f7",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "823b9c8b-afde-47e7-abad-fb60f14ea562",
@@ -1485,7 +1989,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=e735e280-9992-470e-b8df-d9b4a0e1e214",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "d980e749-b3df-4f90-ba1a-0987168cfe13",
@@ -1497,7 +2001,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=d980e749-b3df-4f90-ba1a-0987168cfe13",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "98db1b19-26e2-4e6d-937b-7319944a6fc0",
@@ -1521,7 +2025,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=ac48b90b-64d1-4288-a2aa-9d6bc27e0436",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "724fa773-e6c0-47ec-b76d-8c5ae25850ed",
@@ -1533,7 +2037,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=724fa773-e6c0-47ec-b76d-8c5ae25850ed",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "48d6607c-2bbf-4913-a311-216f822740ee",
@@ -1557,7 +2061,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=0ef84db1-2833-4bad-9c27-df00efcda17d",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "105572b1-f0df-4220-98b0-0f5ac2d1e1e9",
@@ -1713,7 +2217,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=85146e08-4f64-4ea2-9541-7a3d22af578e",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "852dfa4f-b414-4559-ae8d-5cc955fe97db",
@@ -1725,7 +2229,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=852dfa4f-b414-4559-ae8d-5cc955fe97db",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "7781ccc3-e390-49cb-b574-fb3213c2e74a",
@@ -1737,7 +2241,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=7781ccc3-e390-49cb-b574-fb3213c2e74a",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "48aa6b1a-57e3-4619-a2b4-52c4d3cb2f15",
@@ -1989,7 +2493,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=e64560af-5a09-4910-86bf-fdc689ab6bc1",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "69750db3-4a1d-48f0-b6f3-005eb5479d9f",
@@ -2049,7 +2553,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=1d73eadd-7250-425f-9cbe-c906414e5049",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "9e51a63f-ef7f-4b37-9cc2-67fbf35e8e6f",
@@ -2073,7 +2577,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=93d75126-98c3-43de-9fdf-cee95c3ed1c6",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "21bdfedb-d1eb-4bbf-ae2c-98b2b70bea61",
@@ -2613,7 +3117,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=ee0f8cee-65b5-4ca7-ab0a-625d782bac4a",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "e6ec0b1f-a1de-418e-9b77-ba3fd64b6094",
@@ -2637,7 +3141,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=c988bdd4-9208-485e-b843-ec01a15a0e6e",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "38760ccf-d2bc-4b57-810b-5aae3d989c55",
@@ -2913,7 +3417,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=0b1041ae-ce09-4947-b5f9-744e9014a639",
-    "collection": "newest"
+    "collection": "newest,helpful"
   },
   {
     "review_id": "dd42dc0f-7b75-4e85-95ba-ce2ef3d0d408",
@@ -6053,7 +6557,7 @@
     "rating": 5,
     "review_text": "I love the service they are providing. worked with 2 organisations with this app, and has made my commute simplified, transition seamless and everything works perfectly. I honestly hate the ui, and it is unintuitive to change location and stuff. but I am still gonna rate 5 stats because I support their mission.",
     "app_version": "12.17.0",
-    "helpful_count": 5,
+    "helpful_count": 6,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=27e47fba-8807-4da0-9dc7-fefe983b8b17",
@@ -6705,19 +7209,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=563bbc08-d9e8-4287-8bfc-ffa30de3031e",
-    "collection": "newest,helpful"
-  },
-  {
-    "review_id": "4e3820a7-aac3-4c54-aa6c-2b2f1bd1ddc4",
-    "date": "2026-08-07T17:19:18.287Z",
-    "rating": 3,
-    "review_text": "app is not opening properly",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=4e3820a7-aac3-4c54-aa6c-2b2f1bd1ddc4",
-    "collection": "newest"
+    "collection": "helpful"
   },
   {
     "review_id": "b67ed253-9b9c-4a4e-93f0-fa84aa66ee98",
@@ -6729,19 +7221,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=b67ed253-9b9c-4a4e-93f0-fa84aa66ee98",
-    "collection": "newest,helpful"
-  },
-  {
-    "review_id": "97a529b2-c0ac-4531-9d73-484471fe75e1",
-    "date": "2026-08-07T08:43:51.902Z",
-    "rating": 1,
-    "review_text": "Got issues with login",
-    "app_version": "12.17.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=97a529b2-c0ac-4531-9d73-484471fe75e1",
-    "collection": "newest"
+    "collection": "helpful"
   },
   {
     "review_id": "ff2dcc55-ccd6-4830-9f9d-88f149db3dd6",
@@ -6753,19 +7233,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=ff2dcc55-ccd6-4830-9f9d-88f149db3dd6",
-    "collection": "newest,helpful"
-  },
-  {
-    "review_id": "c974e9a7-0937-4df2-9a93-16921d0a0b38",
-    "date": "2026-08-07T05:37:28.479Z",
-    "rating": 1,
-    "review_text": "worse and pathetic experience with this application",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=c974e9a7-0937-4df2-9a93-16921d0a0b38",
-    "collection": "newest"
+    "collection": "helpful"
   },
   {
     "review_id": "687a9573-d6cb-4801-8578-7eb948c6a722",
@@ -6777,7 +7245,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=687a9573-d6cb-4801-8578-7eb948c6a722",
-    "collection": "newest,helpful"
+    "collection": "helpful"
   },
   {
     "review_id": "3adc2e4e-19ce-4115-b8fe-52716d4c1561",
@@ -6789,43 +7257,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3adc2e4e-19ce-4115-b8fe-52716d4c1561",
-    "collection": "newest,helpful"
-  },
-  {
-    "review_id": "ab22d06f-a3be-49e3-a460-5ef157ec534c",
-    "date": "2026-08-06T22:41:41.226Z",
-    "rating": 1,
-    "review_text": "worst app . zero support. unsafe for female",
-    "app_version": "12.16.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=ab22d06f-a3be-49e3-a460-5ef157ec534c",
-    "collection": "newest"
-  },
-  {
-    "review_id": "ae93aa41-2f46-435a-9a85-6276f148fc8c",
-    "date": "2026-08-06T22:15:34.956Z",
-    "rating": 5,
-    "review_text": "excellent",
-    "app_version": "12.16.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=ae93aa41-2f46-435a-9a85-6276f148fc8c",
-    "collection": "newest"
-  },
-  {
-    "review_id": "04970cd8-385f-4df2-84a4-1a6068f96b95",
-    "date": "2026-08-06T13:20:11.911Z",
-    "rating": 5,
-    "review_text": "excellent",
-    "app_version": "12.16.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=04970cd8-385f-4df2-84a4-1a6068f96b95",
-    "collection": "newest"
+    "collection": "helpful"
   },
   {
     "review_id": "341feb49-ec55-4cca-b783-64699751ab75",
@@ -6837,115 +7269,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=341feb49-ec55-4cca-b783-64699751ab75",
-    "collection": "newest,helpful"
-  },
-  {
-    "review_id": "3f781b95-26ee-4822-9cea-a9ea9056d3e6",
-    "date": "2026-08-06T04:49:17.720Z",
-    "rating": 1,
-    "review_text": "it will not be properly, fix the bug",
-    "app_version": "",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3f781b95-26ee-4822-9cea-a9ea9056d3e6",
-    "collection": "newest"
-  },
-  {
-    "review_id": "4827bbe5-905f-4f4d-a903-7992a94c7bec",
-    "date": "2026-08-06T04:49:16.492Z",
-    "rating": 5,
-    "review_text": "Awesome",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=4827bbe5-905f-4f4d-a903-7992a94c7bec",
-    "collection": "newest"
-  },
-  {
-    "review_id": "b6917179-a3ab-4af8-9a53-50c6d987eb36",
-    "date": "2026-08-06T01:28:59.216Z",
-    "rating": 3,
-    "review_text": "logs out frequently",
-    "app_version": "",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=b6917179-a3ab-4af8-9a53-50c6d987eb36",
-    "collection": "newest"
-  },
-  {
-    "review_id": "4adacbd5-81fc-4293-a08e-c9663b142535",
-    "date": "2026-08-06T00:13:53.758Z",
-    "rating": 1,
-    "review_text": "the worst app ever",
-    "app_version": "12.16.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=4adacbd5-81fc-4293-a08e-c9663b142535",
-    "collection": "newest"
-  },
-  {
-    "review_id": "99e3b6f4-2e68-4417-b769-3e2d414673ea",
-    "date": "2026-08-05T22:03:34.276Z",
-    "rating": 5,
-    "review_text": "great",
-    "app_version": "12.1.2",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=99e3b6f4-2e68-4417-b769-3e2d414673ea",
-    "collection": "newest"
-  },
-  {
-    "review_id": "cddf3842-7b44-4988-8cb6-dfbff84881ce",
-    "date": "2026-08-05T18:16:34.519Z",
-    "rating": 5,
-    "review_text": "Nice app for office commute",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=cddf3842-7b44-4988-8cb6-dfbff84881ce",
-    "collection": "newest"
-  },
-  {
-    "review_id": "e8ae10ed-8d63-49d8-91fc-cc21079ffc75",
-    "date": "2026-08-05T13:22:25.411Z",
-    "rating": 5,
-    "review_text": "good",
-    "app_version": "",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=e8ae10ed-8d63-49d8-91fc-cc21079ffc75",
-    "collection": "newest"
-  },
-  {
-    "review_id": "d33348aa-d0d0-49db-b04e-1335a24d0676",
-    "date": "2026-08-05T12:15:16.694Z",
-    "rating": 5,
-    "review_text": "excellent work",
-    "app_version": "12.16.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=d33348aa-d0d0-49db-b04e-1335a24d0676",
-    "collection": "newest"
-  },
-  {
-    "review_id": "82470ef9-f10c-495c-8f65-b0f5acd0aca2",
-    "date": "2026-08-05T08:35:06.175Z",
-    "rating": 1,
-    "review_text": "why pick up time too early",
-    "app_version": "",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=82470ef9-f10c-495c-8f65-b0f5acd0aca2",
-    "collection": "newest"
+    "collection": "helpful"
   },
   {
     "review_id": "3b496343-6d57-4b65-9438-35e18b2d5f0f",
@@ -6957,67 +7281,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3b496343-6d57-4b65-9438-35e18b2d5f0f",
-    "collection": "newest,helpful"
-  },
-  {
-    "review_id": "242d3302-bb0b-41e3-a2af-3d54bfb4e9ea",
-    "date": "2026-08-05T00:40:45.465Z",
-    "rating": 5,
-    "review_text": "Always rely on promise..",
-    "app_version": "12.15.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=242d3302-bb0b-41e3-a2af-3d54bfb4e9ea",
-    "collection": "newest"
-  },
-  {
-    "review_id": "1b0eddce-aa6c-4f32-8684-f45e985c9cd1",
-    "date": "2026-08-04T23:58:01.179Z",
-    "rating": 5,
-    "review_text": "good",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=1b0eddce-aa6c-4f32-8684-f45e985c9cd1",
-    "collection": "newest"
-  },
-  {
-    "review_id": "d1bd5665-bb8d-436f-a481-595d29a8d785",
-    "date": "2026-08-04T22:52:08.440Z",
-    "rating": 5,
-    "review_text": "good and systematic",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=d1bd5665-bb8d-436f-a481-595d29a8d785",
-    "collection": "newest"
-  },
-  {
-    "review_id": "401d832c-e10c-4b0c-bbdd-c02c718d47d3",
-    "date": "2026-08-04T19:08:07.701Z",
-    "rating": 1,
-    "review_text": "worst app, they mark my no show for no reason.",
-    "app_version": "12.14.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=401d832c-e10c-4b0c-bbdd-c02c718d47d3",
-    "collection": "newest"
-  },
-  {
-    "review_id": "da70ae8d-1bae-4485-a660-7373b3a7a469",
-    "date": "2026-08-04T17:54:38.788Z",
-    "rating": 1,
-    "review_text": "they dont come on time",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=da70ae8d-1bae-4485-a660-7373b3a7a469",
-    "collection": "newest"
+    "collection": "helpful"
   },
   {
     "review_id": "5e41c6b5-feed-46fc-9dcc-9d7425010f0d",
@@ -7029,127 +7293,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=5e41c6b5-feed-46fc-9dcc-9d7425010f0d",
-    "collection": "newest,helpful"
-  },
-  {
-    "review_id": "bec0baa0-2e69-47ce-8b43-3d18abc9798c",
-    "date": "2026-08-04T15:43:39.802Z",
-    "rating": 5,
-    "review_text": "nice",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=bec0baa0-2e69-47ce-8b43-3d18abc9798c",
-    "collection": "newest"
-  },
-  {
-    "review_id": "3997e882-3686-406a-8fa4-e8188242a508",
-    "date": "2026-08-04T15:32:43.397Z",
-    "rating": 4,
-    "review_text": "good",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3997e882-3686-406a-8fa4-e8188242a508",
-    "collection": "newest"
-  },
-  {
-    "review_id": "d29ebeb4-616a-482d-9333-c541afebb442",
-    "date": "2026-08-04T13:53:27.752Z",
-    "rating": 5,
-    "review_text": "Nice",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=d29ebeb4-616a-482d-9333-c541afebb442",
-    "collection": "newest"
-  },
-  {
-    "review_id": "abcdb5e9-3ba2-4e88-b6d8-3629af7d8e3d",
-    "date": "2026-08-04T11:27:59.714Z",
-    "rating": 5,
-    "review_text": "excellent service",
-    "app_version": "12.16.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=abcdb5e9-3ba2-4e88-b6d8-3629af7d8e3d",
-    "collection": "newest"
-  },
-  {
-    "review_id": "2c85db22-c3fe-47e5-8ca4-4c56e11f93de",
-    "date": "2026-08-04T07:31:42.453Z",
-    "rating": 5,
-    "review_text": "good app",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=2c85db22-c3fe-47e5-8ca4-4c56e11f93de",
-    "collection": "newest"
-  },
-  {
-    "review_id": "6bc2ac58-f457-456d-a627-9eaa1c6c7aac",
-    "date": "2026-08-04T06:11:21.548Z",
-    "rating": 5,
-    "review_text": "helpfull and convenient",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=6bc2ac58-f457-456d-a627-9eaa1c6c7aac",
-    "collection": "newest"
-  },
-  {
-    "review_id": "7e8113c1-9926-4cd7-a4a8-58e39f35f14c",
-    "date": "2026-08-03T23:17:39.744Z",
-    "rating": 5,
-    "review_text": "so far experience with 2 companies has been really good",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=7e8113c1-9926-4cd7-a4a8-58e39f35f14c",
-    "collection": "newest"
-  },
-  {
-    "review_id": "da5acfbc-5084-4887-9276-88e04a9c8318",
-    "date": "2026-08-03T22:09:29.273Z",
-    "rating": 1,
-    "review_text": "worst app",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=da5acfbc-5084-4887-9276-88e04a9c8318",
-    "collection": "newest"
-  },
-  {
-    "review_id": "34127781-a3bf-4340-9952-d30a9ac2d34f",
-    "date": "2026-08-03T21:09:22.380Z",
-    "rating": 5,
-    "review_text": "Best",
-    "app_version": "12.16.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=34127781-a3bf-4340-9952-d30a9ac2d34f",
-    "collection": "newest"
-  },
-  {
-    "review_id": "57ef1ebe-a177-46ee-abf3-9b71afd9db7f",
-    "date": "2026-08-03T20:14:58.568Z",
-    "rating": 5,
-    "review_text": "Well designed app",
-    "app_version": "12.16.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=57ef1ebe-a177-46ee-abf3-9b71afd9db7f",
-    "collection": "newest"
+    "collection": "helpful"
   },
   {
     "review_id": "3a66e81d-46fa-4b36-85ac-9d504fa0ddfa",
@@ -7161,7 +7305,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3a66e81d-46fa-4b36-85ac-9d504fa0ddfa",
-    "collection": "newest,helpful"
+    "collection": "helpful"
   },
   {
     "review_id": "9636c368-253c-4500-adf4-7e4af4ad4503",
@@ -7173,31 +7317,7 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=9636c368-253c-4500-adf4-7e4af4ad4503",
-    "collection": "newest,helpful"
-  },
-  {
-    "review_id": "9c871ea2-853b-447b-bb29-27bbf6a469e8",
-    "date": "2026-08-03T19:05:21.777Z",
-    "rating": 5,
-    "review_text": "Good Cab Service.",
-    "app_version": "12.16.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=9c871ea2-853b-447b-bb29-27bbf6a469e8",
-    "collection": "newest"
-  },
-  {
-    "review_id": "a9796458-9405-47ed-8cab-1f93bf48e7af",
-    "date": "2026-08-03T18:32:26.300Z",
-    "rating": 5,
-    "review_text": "Great help",
-    "app_version": "12.16.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=a9796458-9405-47ed-8cab-1f93bf48e7af",
-    "collection": "newest"
+    "collection": "helpful"
   },
   {
     "review_id": "18293ce9-b1cd-4eec-a830-a1031a463b71",
@@ -7445,22 +7565,10 @@
     "rating": 5,
     "review_text": "The app load times are becoming crazy it takes 20 seconds to load the content these days. Sometimes I have to force close and reopen the app to get the content to load.",
     "app_version": "12.15.0",
-    "helpful_count": 7,
+    "helpful_count": 8,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=a61886cc-9849-41f4-a8ec-b76cccf5133e",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "9ce97b62-9234-43bd-aabe-261ca79b6469",
-    "date": "2026-07-21T14:07:21.626Z",
-    "rating": 4,
-    "review_text": "made mandatory by company .. routing can be better by choosing one side of the road rather than both sides",
-    "app_version": "12.15.0",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=9ce97b62-9234-43bd-aabe-261ca79b6469",
     "collection": "helpful"
   },
   {
@@ -7644,18 +7752,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "c1b25db9-7a1d-4467-aa00-14823e82fe2f",
-    "date": "2026-07-09T14:44:06.174Z",
-    "rating": 1,
-    "review_text": "when booking a cab it freezes if too many people try at once",
-    "app_version": "12.14.1",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=c1b25db9-7a1d-4467-aa00-14823e82fe2f",
-    "collection": "helpful"
-  },
-  {
     "review_id": "a80b16e2-64b2-4f8b-b5f5-68b2718a1dcb",
     "date": "2026-07-09T12:43:24.120Z",
     "rating": 3,
@@ -7745,7 +7841,7 @@
     "rating": 5,
     "review_text": "Good app all the information for cab in one place and also they call and ask if we are facing any issue if the cab gets delayed on the road for a few mins.",
     "app_version": "12.14.1",
-    "helpful_count": 3,
+    "helpful_count": 4,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=5858be08-82d5-4ca5-b23f-c92154a11e58",
@@ -7757,7 +7853,7 @@
     "rating": 1,
     "review_text": "The recent updates in the UI have made the app very difficult to use. Booking a shuttle is now a 2 step process previously it used to be 1. I got confused and thought I had booked a cab while I hadn't. Was too late in realising that. Such major changes need to be released in a better way rather than just throwing them in the user's face. Another bad thing is even though I am in 1 cab but I can see all the ones available for that time. I don't need to see others, just show me mine.",
     "app_version": "12.14.1",
-    "helpful_count": 4,
+    "helpful_count": 5,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=6663f7b1-7087-45e5-9320-c8a7fbfc6307",
@@ -7925,7 +8021,7 @@
     "rating": 1,
     "review_text": "The GPS tracking system is very slow, and the pickup and drop timings are frequently incorrect. Additionally, the live location of other users is often not visible. Due to these issues, we are unable to determine the correct vehicle location, which is causing inconvenience. Kindly investigate and resolve these issues as soon as possible.",
     "app_version": "12.14.1",
-    "helpful_count": 3,
+    "helpful_count": 4,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=6c2c9546-09f9-460d-a61a-0fbe76078cd9",
@@ -8033,7 +8129,7 @@
     "rating": 1,
     "review_text": "I had a suggestion to add a smart notification feature to remind the user for check-in after the vehicle crosses their pickup point. Sometimes, the vehicle arrives late or we miss by mistake to check-in, then we are marked as \"No show\" and it comes as a surprise. Introducing this one feature will help a lot for both transportation and end users. This may sound silly but even a small thing matters a lot.",
     "app_version": "12.14.1",
-    "helpful_count": 6,
+    "helpful_count": 9,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=7e184ad5-066a-4d36-b7a0-73a0a56bf8a3",
@@ -8213,7 +8309,7 @@
     "rating": 1,
     "review_text": "The GPS tracking system is often unreliable and sometimes shows the driver at an incorrect location, which can lead to unnecessary delays. In addition, the estimated arrival time displayed by the GPS tracker is frequently inaccurate, and the pickup time is rarely synchronized correctly. This has occasionally resulted in missed cab pickups. Notifications are also often delayed or, at times, not received at all, causing me to miss important updates regarding my ride.",
     "app_version": "12.13.1",
-    "helpful_count": 9,
+    "helpful_count": 10,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=c158c05c-7985-49cd-bebb-1be703e0ca50",
@@ -8561,7 +8657,7 @@
     "rating": 1,
     "review_text": "address change is very awful through app. how can someone browse on phone to map address search feature is also not there",
     "app_version": "12.12.0",
-    "helpful_count": 1,
+    "helpful_count": 2,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=cabdc55e-7cc9-476b-8798-94fee5d7ff0b",
@@ -8916,30 +9012,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "aa7a1ac1-eccc-4377-afdb-5b18095612da",
-    "date": "2026-02-25T17:40:23.138Z",
-    "rating": 1,
-    "review_text": "every time after opening app it's required log in and OTP sign in, It's not banking app, once we have log in the app, it should be signed in by default till we log out, just like teams, Outlook, banking apps, social media apps etc, this is not so much confidencial then Outlook and teams, Log in must be remembered by default in system",
-    "app_version": "12.10",
-    "helpful_count": 1,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=aa7a1ac1-eccc-4377-afdb-5b18095612da",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "f5aef093-72cc-491e-aac9-6626fad7d089",
-    "date": "2026-02-11T10:17:50.858Z",
-    "rating": 1,
-    "review_text": "The app is not working properly. We are receiving 'NA' for the sequence and cab details, and the sequence is displaying incorrectly. Specifically, the app shows one sequence while the driver app shows a different one. This is creating a major misunderstanding. I think the efmfm app was far better then this one",
-    "app_version": "12.9.4",
-    "helpful_count": 2,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=f5aef093-72cc-491e-aac9-6626fad7d089",
-    "collection": "helpful"
-  },
-  {
     "review_id": "a1bc44b0-0421-4f27-bac9-72d3635d4eaf",
     "date": "2026-01-29T05:19:43.280Z",
     "rating": 1,
@@ -8957,7 +9029,7 @@
     "rating": 2,
     "review_text": "Most frustrating aspect of this app is, when cab is waiting for you and you are in hurry, you will be logged out with no access to cab number/otp/call option to helpdesk etc. We do get regular SMS but what if we have to contact driver/help desk?? This is possible once when we can access the app!!! App team should be mindful about the frequency of logouts. I use multiple workplace apps like smartq, pluxee etc but non have this issue of suprise logouts that too when you are in hurry!!",
     "app_version": "12.8.2",
-    "helpful_count": 5,
+    "helpful_count": 6,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=ac0225b4-992e-4b9a-bfd6-3da50f0703fd",
@@ -9000,18 +9072,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "fdc328ac-2980-4425-85ba-86105f68fb3b",
-    "date": "2025-11-07T02:58:13.550Z",
-    "rating": 1,
-    "review_text": "App has very poor logic of setting zoom level and automatically reset it every 30 seconds. When user is waiting for cab at source why you want to keep the destination also in the view? which makes impossible to see how far the cab is. suggestion to keep one point at a time in focus while boarding pickup point and vehicle and once you start the trip vehicle and destination. also when user zooms in respect his zooming don't reset automatically optionally you can give reset button to reset.",
-    "app_version": "12.6",
-    "helpful_count": 10,
-    "developer_reply": "Thanks for bringing this to our attention. We're working to enhance the vehicle tracking experience, you shall improve with upcoming app releases.\nFeel free share a few more details with us at app@moveinsync.com. Our team will be happy to resolve any other queries.",
-    "developer_reply_date": "2025-11-09T18:34:07.763Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=fdc328ac-2980-4425-85ba-86105f68fb3b",
-    "collection": "helpful"
-  },
-  {
     "review_id": "abe61868-6940-48cd-bcf4-2180fe76ff3a",
     "date": "2025-11-04T04:20:34.537Z",
     "rating": 4,
@@ -9024,30 +9084,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "e67fc7c5-d776-4653-b0ae-478a12216067",
-    "date": "2025-10-27T13:32:36.590Z",
-    "rating": 1,
-    "review_text": "always asking for login every time I open. the new update is a waste I don't know why the development team is wasting the user time. the seat belt option is just hilarious. The driver can accept the option even if the passenger is not wearing it.",
-    "app_version": "12.6",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=e67fc7c5-d776-4653-b0ae-478a12216067",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "346477e2-276b-43f7-898c-621e37198fc8",
-    "date": "2025-10-23T01:02:24.262Z",
-    "rating": 1,
-    "review_text": "Given how this apk eats up battery & runs in background all the time , would prefer a webapplication compared to this mobile app on any given day. the application on updates asks for Phone # and OTP and despite granting the SMS read permission it is unable to read it and then displays a time out error. GPS tracking seldom works. However to cover up for the design flaws - app team asks to check with company transport. It won't even display booking detail when is needed most",
-    "app_version": "11.3.9",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=346477e2-276b-43f7-898c-621e37198fc8",
-    "collection": "helpful"
-  },
-  {
     "review_id": "93b37154-1671-43bc-9522-97056844ccd0",
     "date": "2025-10-04T20:28:43.136Z",
     "rating": 1,
@@ -9057,18 +9093,6 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=93b37154-1671-43bc-9522-97056844ccd0",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "56a649bb-5722-41d6-a0d1-a16edd375d93",
-    "date": "2025-09-24T10:47:31.219Z",
-    "rating": 1,
-    "review_text": "Ridiculously poor app wrt to driver location updates. often doesnt update until the vehicle is at your door step thereby delaying the pick process for all. mediocre UI with limited functionalities. plus now with the latest update it doesn't work unless one resets the time on the mobile as per network location!",
-    "app_version": "12.5",
-    "helpful_count": 2,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=56a649bb-5722-41d6-a0d1-a16edd375d93",
     "collection": "helpful"
   },
   {
@@ -9156,18 +9180,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "4db58665-f8b5-41e0-8b04-1be8f0072290",
-    "date": "2025-07-07T21:04:19.907Z",
-    "rating": 1,
-    "review_text": "Always face trouble getting the app to start it keeps loading, we can't restart our phone everytime for the app to work nobody has that kind of time, we have to open this app atleast 15 mins prior and check the details as it will not load immediately when we want to board if we forget to check prior then we will miss the schedule",
-    "app_version": "12.1.2",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=4db58665-f8b5-41e0-8b04-1be8f0072290",
-    "collection": "helpful"
-  },
-  {
     "review_id": "7db51491-0223-4f56-9018-31fdf646999e",
     "date": "2025-06-19T04:01:05.180Z",
     "rating": 1,
@@ -9209,7 +9221,7 @@
     "rating": 1,
     "review_text": "I don't know how this app even has 4 stars when it's a VERY BADLY MADE APP. It logs you off randomly and doesn't send you the OTP. You don't know how to cancel the app. You won't know how to book properly. Everything you need to find out yourself how to do. No cancel option. Update: says you've successfully booked but your booked trips is empty. Tried multiple times and same issue.",
     "app_version": "12.1",
-    "helpful_count": 5,
+    "helpful_count": 6,
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=7897d625-4363-497e-823c-2089ee213fca",
@@ -9444,18 +9456,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "8f87808c-363f-436e-8746-b26cd4444a0a",
-    "date": "2024-11-23T06:25:07.980Z",
-    "rating": 1,
-    "review_text": "Every time i open app there is transport policy page that have to click I agree. Passenger have no rights to alter the schedule. Passenger cant see the total numbers of travelers and their pickup/drop locations. Seems some things are intentionally kept hidden.",
-    "app_version": "11.5.12",
-    "helpful_count": 1,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=8f87808c-363f-436e-8746-b26cd4444a0a",
-    "collection": "helpful"
-  },
-  {
     "review_id": "e5ed9f01-6b60-4558-b4f0-096197b4e6fc",
     "date": "2024-11-21T04:25:18.790Z",
     "rating": 1,
@@ -9516,18 +9516,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "1899221d-fc08-46db-a939-fbcfad328376",
-    "date": "2024-10-16T11:46:04.660Z",
-    "rating": 2,
-    "review_text": "App is having good interface and had lots of improvements in past months. But a sad part is there is no option to communicate with driver from employee side. We need either call or chat option for the assigned cab. So that we can guide him address. If drivern taken wrong route we can check him using the track and call option This connection option will really help drivers and employees who are going to on board the cab. Please check on this",
-    "app_version": "11.5.8",
-    "helpful_count": 2,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=1899221d-fc08-46db-a939-fbcfad328376",
-    "collection": "helpful"
-  },
-  {
     "review_id": "43e2e111-a4a2-482c-a75b-ca26f291de3b",
     "date": "2024-10-09T05:16:36.301Z",
     "rating": 1,
@@ -9573,18 +9561,6 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=25bda492-7469-4d68-b766-5622a3ea7de5",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "1d3ca474-c69b-43ea-afe4-562132797ca1",
-    "date": "2024-07-03T10:56:50.480Z",
-    "rating": 1,
-    "review_text": "Pathetic is the right word of this app. Biggest joke is this, the app will show you can schedule a pick-up for all available slots but when you book a slot and you don't get a cab, please don't surprised as they will come up with the excuse that you will have to schedule it before 6 hours otherwise it will not be booked. This means it's a big flaw/glitch in the app that it is showing the schedule but you can't book it. I mean seriously?? In today's time you are asking to use such a pathetic app.",
-    "app_version": "11.4.34",
-    "helpful_count": 2,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=1d3ca474-c69b-43ea-afe4-562132797ca1",
     "collection": "helpful"
   },
   {
@@ -9660,30 +9636,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "843a96d9-e83b-4326-a160-a53317206099",
-    "date": "2024-03-12T03:33:20.954Z",
-    "rating": 1,
-    "review_text": "The overall commute experience with this app is really worse. The driver couldn't pick me up and the help desk couldn't lift my call to answer query. They don't have proper issue resolution team to take feedback and work immediately. Overall it's very unpleasant experience on my first use and I will never recommend this app to anyone.",
-    "app_version": "11.4.18",
-    "helpful_count": 7,
-    "developer_reply": "Sorry for the inconvenience.\nCan you please reach out to your transport facility manager regarding this issue?\nThey should be able to help you with this.\nWe only create the app and are not responsible for daily operations.\nWrite to us at app@moveinsync.com or use our App Feedback feature for any clarifications. Thank you.",
-    "developer_reply_date": "2024-03-13T06:17:48.846Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=843a96d9-e83b-4326-a160-a53317206099",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "a5d993ed-2fdf-4941-8251-08cd543c295d",
-    "date": "2024-03-06T13:32:36.853Z",
-    "rating": 1,
-    "review_text": "Worst application, I am getting \"You are not registered with us please reach out to the admin team for assistance\", it's been many days, I am registering with correct phn no. also tried with correct email address then also it's not opened. I have joined the company one month back but still it's saying not registered.",
-    "app_version": "11.4.13",
-    "helpful_count": 0,
-    "developer_reply": "Sorry for the inconvenience.\nCan you please reach out to your transport facility manager regarding this issue?\nThey should be able to help you with this.\nWe only create the app and are not responsible for daily operations.\nWrite to us at app@moveinsync.com or use our App Feedback feature for any clarifications. Thank you.",
-    "developer_reply_date": "2024-03-07T06:15:45.310Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=a5d993ed-2fdf-4941-8251-08cd543c295d",
-    "collection": "helpful"
-  },
-  {
     "review_id": "b9ca6147-fe50-4636-9ebf-9d89dc8a7f0d",
     "date": "2024-03-06T05:11:03.938Z",
     "rating": 1,
@@ -9693,18 +9645,6 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=b9ca6147-fe50-4636-9ebf-9d89dc8a7f0d",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "715aa2b4-08a6-43af-a96f-88432441df80",
-    "date": "2024-02-29T07:25:36.823Z",
-    "rating": 1,
-    "review_text": "Worst app which doesn't have proper planning on everything and not at all a friendly user to manage anything here. Navigation showing wrong at sometimes. To schedule cab booking r cancelling 8hours prior is okay but 48hrs prior is unnecessary. At the time of cab pickup for login the journey to destination is 20mins but driver comes prior 1hour 30mins is very worst.",
-    "app_version": "11.4.18",
-    "helpful_count": 1,
-    "developer_reply": "Hi,\nPlease help us understand the the issue you are facing in depth. Please share the detailed issue by writing to app@moveinsync.com. We'll ensure to look into it with utmost priority.\nThanks!",
-    "developer_reply_date": "2024-02-29T07:02:07.742Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=715aa2b4-08a6-43af-a96f-88432441df80",
     "collection": "helpful"
   },
   {
@@ -9720,36 +9660,12 @@
     "collection": "helpful"
   },
   {
-    "review_id": "f551328c-b8a5-4b66-9ea6-148318d2bb57",
-    "date": "2024-02-16T04:23:32.540Z",
-    "rating": 1,
-    "review_text": "The app has an outage, and the stupid folks who made this app had been sending notifications over the app itself(the notifications started coming in after the ourage ended). How in the world will those notifications reach if the app itself is down. You need to send notifications through other channels like SMS or email.",
-    "app_version": "11.4.13",
-    "helpful_count": 0,
-    "developer_reply": "Hi, sorry for the inconvenience. We have a new update, v11.4.18\nCan you please update your app and see if the issue still persists?\nIf so, can you please write to us at app@moveinsync.com and we'll take a look.",
-    "developer_reply_date": "2024-02-18T17:42:19.432Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=f551328c-b8a5-4b66-9ea6-148318d2bb57",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "0fc23ee2-4ae7-4c6b-a28f-93e968e0da16",
-    "date": "2024-02-15T01:51:21.495Z",
-    "rating": 1,
-    "review_text": "Real time tracking for not work. ETA is always wrong. When we scan for login, it gives a toast message that I'm successfully on boarded but the app does not indicate anywhere that I'm on board. It should not allow us to scan for login again. Worst app.",
-    "app_version": "11.4.13",
-    "helpful_count": 1,
-    "developer_reply": "This doesn't seem right. We want to take a closer look at this for you. Please send a note to app@moveinsync.com so we can connect.",
-    "developer_reply_date": "2024-02-15T06:49:55.310Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=0fc23ee2-4ae7-4c6b-a28f-93e968e0da16",
-    "collection": "helpful"
-  },
-  {
     "review_id": "8e9b5aa8-024f-4657-b497-ca7504f70566",
     "date": "2024-01-14T20:22:32.199Z",
     "rating": 1,
     "review_text": "One of the worst app. While tracking the cab in map. It's automatically zooming out after 3 4 seconds. Have to zoom in again. It's very frustrating. Besides the tracking is not accurate. OTPs are changing all of sudden. Worst case I've ever faced in the app is, OTP changed after my trip started and the end OTP is not accepting. You guys really have to look into this issues.",
     "app_version": "11.4.13",
-    "helpful_count": 51,
+    "helpful_count": 52,
     "developer_reply": "Hi, sorry for the inconvenience. We'll see how we can improve the tracking experience.\nHowever, the OTPs changing is a mandate that is set by your organization. Can you please reach out to your transport facility manager regarding this issue?\nThey should be able to help you with this.\nWrite to us at app@moveinsync.com for any clarifications\n",
     "developer_reply_date": "2024-01-15T10:22:20.844Z",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=8e9b5aa8-024f-4657-b497-ca7504f70566",
@@ -9828,18 +9744,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "3d4105f1-366f-4a65-9feb-0a9209be8f64",
-    "date": "2023-10-26T20:44:04.163Z",
-    "rating": 5,
-    "review_text": "App started working after the latest update. The app won't open because it gives the error - \"app does not work on rooted device\". I use a Google Pixel 7 pro and it is not even rooted. Please look into this. Edit --* Adding to my last post * - The issue has been fixed. Thanks Team, this deserves a 5 star rating.",
-    "app_version": "11.4.5",
-    "helpful_count": 1,
-    "developer_reply": "Hi Sunny, we really appreciate you changing your rating after we provided the fix.\nThanks a lot and have a great day!",
-    "developer_reply_date": "2023-10-27T06:48:10.920Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3d4105f1-366f-4a65-9feb-0a9209be8f64",
-    "collection": "helpful"
-  },
-  {
     "review_id": "e3b57ea4-e803-48ea-b304-3b7509761451",
     "date": "2023-10-26T12:02:08.912Z",
     "rating": 1,
@@ -9909,18 +9813,6 @@
     "developer_reply": "Sorry for the inconvenience.\nCan you please reach out to your transport facility manager regarding this issue?\nThey should be able to help you with this.\nThank you.\nWrite to us at app@moveinsync.com for any clarifications\n",
     "developer_reply_date": "2023-08-16T09:18:35.608Z",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=6d9d5c2c-b379-4d2c-9fab-0b06f75b7212",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "4bdcb4fd-a285-48be-8531-98dbedf152b9",
-    "date": "2023-08-09T02:39:58.900Z",
-    "rating": 3,
-    "review_text": "Passengers list takes multiple clicks to open for the first time. Same is the case when one needs to go back from the passenger list - it requires multiple clicks again. I have come across a few more people who are facing the same issue. Secondly, passenger picked status takes some 5-10 min of time to get reflected.. it's not instantaneous as was in previous app. Thanks",
-    "app_version": "11.3.8",
-    "helpful_count": 32,
-    "developer_reply": "Hey Aditya, thanks for the feedback! We will look into this and see how we can fix this quick! Any new fixes will be available in the form of a new update!",
-    "developer_reply_date": "2023-08-09T17:52:34.904Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=4bdcb4fd-a285-48be-8531-98dbedf152b9",
     "collection": "helpful"
   },
   {
@@ -10080,30 +9972,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "e35102b3-275b-4518-9794-8a2d0a8b5b8e",
-    "date": "2022-12-19T09:19:25.527Z",
-    "rating": 2,
-    "review_text": "Please add a features that the driver won't be able to click the \"trip completed\" if the trip is not completed yet. We the passengers cannot track down the whereabouts of the driver if he click the trip completed though it just started. This is manipulation.",
-    "app_version": "11.2.5",
-    "helpful_count": 1,
-    "developer_reply": "We are really sorry for the trouble and we appreciate you bringing this issue to our attention. We will look into this further!",
-    "developer_reply_date": "2022-12-19T17:30:30.841Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=e35102b3-275b-4518-9794-8a2d0a8b5b8e",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "324b6190-9b18-44ba-9fda-c99cd649b3b1",
-    "date": "2022-11-17T11:09:21.553Z",
-    "rating": 1,
-    "review_text": "I never registered for this app and yesterday I start receiving OTP for login and suddenly I got calls for pick up. I don't know how it is happening. I just want you to delete my nom from your app, otherwise I will complaint regarding this. Or you can just provide mei your customer care number",
-    "app_version": "11.2.2",
-    "helpful_count": 0,
-    "developer_reply": "Hi, please send an email to support@moveinsync.com and they should be able to help you out\nSorry for the inconvenience",
-    "developer_reply_date": "2022-11-20T15:07:32.113Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=324b6190-9b18-44ba-9fda-c99cd649b3b1",
-    "collection": "helpful"
-  },
-  {
     "review_id": "1ec8231a-d838-42cc-b800-c68481a1a6c0",
     "date": "2022-10-29T14:48:25.306Z",
     "rating": 1,
@@ -10188,30 +10056,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "e788b9b7-df46-450f-bd57-1bf583539076",
-    "date": "2022-08-03T06:32:54.262Z",
-    "rating": 5,
-    "review_text": "Under track cab option, against passengers details give an option to view employees pickup point, area details. This will help in manually routing the cab if incase Gps doesn't work and also helps cab mates to check for accuracy of routing if incase company routing is incorrect. This will help in saving time and unwanted route diversion, pickup and drop sequencing",
-    "app_version": "10.0.3",
-    "helpful_count": 1,
-    "developer_reply": "Dear User, Thank you for your suggestions. We will try and incorporate them upcoming versions.",
-    "developer_reply_date": "2022-08-04T18:04:20.357Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=e788b9b7-df46-450f-bd57-1bf583539076",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "0aa772b7-4a64-4ba6-a292-3983bf54a64f",
-    "date": "2022-07-17T13:10:17.407Z",
-    "rating": 5,
-    "review_text": "Can also improve some extra features like chat option or direct call option and also the travel history, sometimes if i had a good ride I forget to give rating to the driver, next day when I try to give rating it's showing the previous ride details, sometimes it won't. Other than that this application storage and battery consumption everything is fine and also this app is not crashing my mobile while the other apps do.",
-    "app_version": "9.9.96",
-    "helpful_count": 9,
-    "developer_reply": "Dear User, Thank you for your suggestions. We will try and incorporate them upcoming versions.",
-    "developer_reply_date": "2022-07-17T17:01:20.193Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=0aa772b7-4a64-4ba6-a292-3983bf54a64f",
-    "collection": "helpful"
-  },
-  {
     "review_id": "e560585f-11ab-4710-8be5-c94f3a341778",
     "date": "2022-06-29T15:51:42.212Z",
     "rating": 4,
@@ -10221,30 +10065,6 @@
     "developer_reply": "Thank you for your valuable feedback. We have noted this request.\nIf you enjoy using the app, please rate us 5 stars. It would encourage us to continue improving the product!",
     "developer_reply_date": "2022-06-08T08:55:29.774Z",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=e560585f-11ab-4710-8be5-c94f3a341778",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "298a10c3-0de6-4f5e-af9e-bab6225efe9c",
-    "date": "2022-06-15T17:47:38.610Z",
-    "rating": 1,
-    "review_text": "Still cannot use the app on Wifi. Have to use mobile data to use this app. I don't know when this issue is going to get fixed. Its been there since more than half a year. Have wrote a mail to the email id as well to the app dev but still no solution provided.",
-    "app_version": "9.9.9",
-    "helpful_count": 0,
-    "developer_reply": "Hi Ansh, sorry for the inconvenience.\nThis is an issue that we are seeing for the first time recently. Can you please ensure that it is not your Wifi that is causing a problem?\nIf you are sure, please write to us at app@moveinsync.com again and we'll look into it.",
-    "developer_reply_date": "2022-06-16T05:37:02.314Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=298a10c3-0de6-4f5e-af9e-bab6225efe9c",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "6a6fc44a-273b-4117-936d-b57c40496a95",
-    "date": "2022-06-04T15:09:29.815Z",
-    "rating": 3,
-    "review_text": "Can't rebook if cancelled. I had to cancel a ride due to incorrect pickup address and now I am not able to book a ride for that day. Error is \"You have taken maximum permissible booking for the day....\". It seems this app hasn't been tested well.",
-    "app_version": "9.9.8",
-    "helpful_count": 0,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=6a6fc44a-273b-4117-936d-b57c40496a95",
     "collection": "helpful"
   },
   {
@@ -10269,30 +10089,6 @@
     "developer_reply": "",
     "developer_reply_date": "",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=34ceb220-e538-41d0-9b42-93e8937a71ef",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "ca711148-653d-4e42-894e-d98e50d01a66",
-    "date": "2022-05-18T03:31:08.705Z",
-    "rating": 1,
-    "review_text": "The app is not at all intuitive. Even after reading the instructions provided on our company site, it was quite difficult to set pickup location etc. You can't search for the location. Also after all this, my cab was showing as booked but no cab came.",
-    "app_version": "9.9.6",
-    "helpful_count": 1,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=ca711148-653d-4e42-894e-d98e50d01a66",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "f7dff83f-c975-4355-97e7-686602e20bd3",
-    "date": "2022-05-02T02:11:26.423Z",
-    "rating": 2,
-    "review_text": "App not able to verify my phone/email on my Oneplus 6 (Android 11) when connected to wifi network. When I submit my phone number or email address and click Verify, it throws an error \"Something went wrong. We are looking into it. Please try again after some time.\"",
-    "app_version": "9.9.4",
-    "helpful_count": 14,
-    "developer_reply": "Sorry for the inconvenience.\nWe have a new update.\nCan you please update your app and see if the issue still persists?",
-    "developer_reply_date": "2022-05-04T20:12:30.200Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=f7dff83f-c975-4355-97e7-686602e20bd3",
     "collection": "helpful"
   },
   {
@@ -10341,18 +10137,6 @@
     "developer_reply": "Hey Vishab, we are extremely sorry that you're facing this problem. We have forwarded the issue to our tech team. It will be resolved soon. Please reach out to app@moveinsync.com if you have any other issues. Thank you.",
     "developer_reply_date": "2021-12-01T08:32:17.122Z",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=f7f0b6f0-d2e4-4852-89f4-bac411ca3b24",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "48bc02aa-6418-4726-830f-58a706ed412b",
-    "date": "2020-12-09T01:13:09.782Z",
-    "rating": 1,
-    "review_text": "Worst App every day it change the pickup time. It is not logical. this app should have another access to change our alarm also so it can change our alarm time every day. They everyday change our pickup time. But we can not change alram time everyday because it is not possible. Can anyone give any solution for this? Where are the app developers?",
-    "app_version": "8.1.1",
-    "helpful_count": 11,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=48bc02aa-6418-4726-830f-58a706ed412b",
     "collection": "helpful"
   },
   {
@@ -10461,18 +10245,6 @@
     "developer_reply": "Dear User, Thank you for your suggestions. We will try and incorporate them upcoming versions.",
     "developer_reply_date": "2019-12-19T05:53:17.591Z",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=0522be2a-374e-4e2d-b5c8-72b7ce04f069",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "489b79b7-8414-4d21-926c-518e433cee1b",
-    "date": "2019-12-18T12:47:28.335Z",
-    "rating": 3,
-    "review_text": "Since the latest update, pick up time for logins is not shown. Makes it very inconvenient if I choose a shift other than the usual one. Pick up time will be unknown till almost an hour before the ride and hence cannot plan my mornings accordingly. Please bring back pick up time.",
-    "app_version": "",
-    "helpful_count": 0,
-    "developer_reply": "This doesn't seem right. We want to take a closer look at this for you. Please send a note to app@moveinsync.com so we can connect.",
-    "developer_reply_date": "2019-12-20T04:16:03.832Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=489b79b7-8414-4d21-926c-518e433cee1b",
     "collection": "helpful"
   },
   {
@@ -10644,18 +10416,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "dfb99278-b8c0-4893-a4cd-6920eba85171",
-    "date": "2019-09-12T04:47:25.370Z",
-    "rating": 1,
-    "review_text": "Ironically, this app is never in sync. I could be standing right outside my cab and it will show 50 mins away. I always have to call the driver to check. If I rely on this app, I could either miss my cab or end up waiting 30-40 minutes. It is absolute rubbish.",
-    "app_version": "6.8",
-    "helpful_count": 4,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=dfb99278-b8c0-4893-a4cd-6920eba85171",
-    "collection": "helpful"
-  },
-  {
     "review_id": "58c92b90-f0a0-4e26-9c29-08bd0903b85e",
     "date": "2019-09-02T14:09:24.577Z",
     "rating": 1,
@@ -10689,18 +10449,6 @@
     "developer_reply": "Hi Venky,\n\nWe are sorry to hear about your experience. We would like to investigate the issue and help you out accordingly, do share the screenshot of the screen. Kindly share your organisation name and employee id at app@moveinsync.com.\n\nThanks,\nMIS Team",
     "developer_reply_date": "2019-08-26T17:03:32.253Z",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=1234ea9f-7edc-4316-a52a-84d9bcf1394e",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "3da49dd9-6014-4ab7-9b38-6d2e3bcb7cf5",
-    "date": "2019-08-23T02:22:36.561Z",
-    "rating": 1,
-    "review_text": "Worst application ever, my office is using this app for pickup and drop, my pickup time keeps changing every day though my cabmates remain same for pickup. Without any reason this app changes my cabmates for drop. It happened many times that my pickup cab mates keep waiting for third person ro come down and I keep waiting for another person as app keep shuffling people for drop and pickup.",
-    "app_version": "",
-    "helpful_count": 0,
-    "developer_reply": "Hi,\n\nWe are sorry for your faced inconvenience. Please share the feedback related to scheduling, cancellation, clubbing, routing, cab condition, driver behaviour or overall transport facility, shift change or cancellation issues with your transport team. MoveInSync has no role in managing this hence can't change it.\n\nThanks,\nMIS Team",
-    "developer_reply_date": "2019-08-26T17:17:41.930Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=3da49dd9-6014-4ab7-9b38-6d2e3bcb7cf5",
     "collection": "helpful"
   },
   {
@@ -10968,18 +10716,6 @@
     "collection": "helpful"
   },
   {
-    "review_id": "1117587c-8bc3-4cc7-b902-4f878d6a28f3",
-    "date": "2019-01-04T12:53:04.489Z",
-    "rating": 4,
-    "review_text": "Great, the automation is good but it needs improvement. It would be helpful to add a button in the app for the drivers so that the drops would be automatically arranged or shown clearly according to the distance of the drop locations for the different passengers. That way you dont have to waste time figuring out whose drop location comes first individually.",
-    "app_version": "5.3.2.3",
-    "helpful_count": 1,
-    "developer_reply": "",
-    "developer_reply_date": "",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=1117587c-8bc3-4cc7-b902-4f878d6a28f3",
-    "collection": "helpful"
-  },
-  {
     "review_id": "2e4102b6-7352-4336-beee-f3425e0ef58f",
     "date": "2018-12-27T09:47:10.800Z",
     "rating": 4,
@@ -11049,18 +10785,6 @@
     "developer_reply": "Hi Jayashree,\n\nSorry for the inconvenience caused. We would like to tell you that due to dependence on other sources to get distance and ETA some times we are not able to update it.It is very rare that these information are not getting update, so if you are having this issue often please revert back to us. We will look into this.\n\nThanks,\nPratyusha",
     "developer_reply_date": "2018-10-03T04:57:17.565Z",
     "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=cdb49b2d-b7df-4bb4-910b-9091496cfe55",
-    "collection": "helpful"
-  },
-  {
-    "review_id": "80ad8bec-a3f1-4e46-81f3-1cae6a9f83be",
-    "date": "2018-09-21T06:50:59.796Z",
-    "rating": 1,
-    "review_text": "An app shud be in such a way wherein u can add the pick ups and drops by ourselves. U need nt hav to reach manager to arrange it fr u every now and then. U cannot even view ur past drop or pick up records to hav a check of whether u hav taken the drop or not, so that u can hav it as a proof, atleast fr a month.",
-    "app_version": "5.2.4.2",
-    "helpful_count": 0,
-    "developer_reply": "Hi user,\n\nWe are sorry for the faced inconvenience. Kindly share your organisation name and employee id at app@moveinsync.com. We would like to investigate further and help you accordingly.\n\nThanks,\nPratyusha",
-    "developer_reply_date": "2018-09-21T10:34:22.355Z",
-    "source_url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=80ad8bec-a3f1-4e46-81f3-1cae6a9f83be",
     "collection": "helpful"
   }
 ]
