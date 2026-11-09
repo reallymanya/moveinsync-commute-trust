@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-11-02T09:35:43.629Z",
+  "collected_at": "2026-11-09T09:53:17.442Z",
   "source": "Google Play",
   "country": "in",
   "language": "en",
   "app_id": "com.moveinsync.ets",
   "app": {
     "title": "MoveInSync",
-    "score": 4.640437,
-    "ratings": 115725,
-    "reviews": 23753,
+    "score": 4.643093,
+    "ratings": 116005,
+    "reviews": 23799,
     "installs": "1,000,000+",
     "min_installs": 1000000,
-    "updated": 1792653618000,
-    "version": "12.20.0",
+    "updated": 1794215038000,
+    "version": "12.21.0",
     "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&hl=en&gl=in"
   },
   "requested": {
@@ -20,6 +20,6 @@
     "helpful": 400
   },
   "fetched_before_deduplication": 1000,
-  "unique_reviews": 911,
+  "unique_reviews": 923,
   "note": "Public reviewer names and profile images were intentionally excluded as unnecessary personal data."
 }
